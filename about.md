@@ -3,28 +3,31 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+# This website
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+This is my general-purpose personal website and blog.
 
-There are currently two themes built on Poole:
+My main goal is to create a set of good and useful pages and posts about a wide
+variety of topics, with special focus on computer science and software
+engineering.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+If you would like to make any changes to a post, either e-mail me your
+suggestion or open a pull request (or issue) on GitHub and I will analyse your
+idea.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Old posts are not moved to the "top" when they are edited, therefore some posts
+created months (or even years) ago may be more up-to-date than the "newest"
+post.
 
-## Setup
+# Contact information
 
-Some fun facts about the setup of this project include:
+You can e-mail me at <a
+href="mailto:mafagafogigante@gmail.com">mafagafogigante@gmail.com</a>
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+# My public repositories
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+All my public repositories are either on GitHub or Bitbucket.
 
-Thanks for reading!
+[This](https://github.com/mafagafogigante){:target="_blank"} is my GitHub
+profile.  [This](https://bitbucket.org/mafagafogigante){:target="_blank"} is my
+Bitbucket profile.
