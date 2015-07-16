@@ -1,11 +1,14 @@
 ---
 layout: page
 title: Dungeon
+tags: [sidebar]
 ---
 # What is it?
 
 Dungeon is a text-based RPG developed by me (with some help of awesome people) using Java SE 6.
 It is licensed under GNU GPLv3.
+
+[Click here to go to the screenshot gallery](http://mafagafogigante.github.io/dungeon/screenshots/).
 
 # Some links
 

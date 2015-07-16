@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Acknowledgements
+tags: [sidebar]
 ---
 
 # Website icon

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Programming
+tags: [sidebar]
 ---
 
 Definitions and notes that are too generic to get into a more specific category

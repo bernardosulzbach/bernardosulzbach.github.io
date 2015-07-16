@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Algorithms
+tags: [sidebar]
 ---
 
 # Euclid's algorithm
@@ -11,7 +12,7 @@ Finds the greatest common divisor (GCD) between two integers.
 N gcd(N a, N b) {
     while (a %= b) {
         swap(a, b);
-    } 
+    }
     return b;
 }
 {% endhighlight %}

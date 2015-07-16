@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Open source contributions
+title: Open Source Contributions
+tags: [sidebar]
 ---
 This is a list of all my contributions to open source projects.
 
