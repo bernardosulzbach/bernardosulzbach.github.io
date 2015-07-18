@@ -1,0 +1,25 @@
+---
+layout: post
+title: Dungeon now forbids object cloning
+---
+
+These are the reasons why I chose to forbid object cloning:
+
++ cloning is a risky extralinguistic object creation mechanism;
++ cloning demands adherence to thinly documented conventions;
++ cloning conflicts with the proper use of final fields¹;
++ cloning throws unnecessary checked exceptions;
++ cloning requires casts.
+
+¹ Say Foo has a final Bar field. Bar is mutable but the field is final.
+When cloning Foo, you would need to fix the field by doing:
+
+{% highlight java %}
+// ...
+Foo clone = (Foo) super.clone();
+clone.bar = (Bar) bar.clone(); // Impossible !
+return clone;
+// ...
+{% endhighlight %}
+
+which is impossible.
