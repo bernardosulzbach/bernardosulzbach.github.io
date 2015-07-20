@@ -37,12 +37,15 @@ To clone and compile from source you will need:
 + Java SE Development Kit (6 or newer too);
 + Maven 3.
 
-Then simply run:
+# Foreword
 
-    git clone https://github.com/mafagafogigante/dungeon.git
-    cd dungeon
-    mvn package
-    java -jar target/dungeon-[VERSION].jar
+## For players
+
+> I hope this game helps you waste your time in an entertaining way.
+
+## For developers
+
+> I hope this project helps you become a more competent programmer.
 
 # Acknowledgements
 
