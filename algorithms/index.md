@@ -124,3 +124,5 @@ Fisher-Yates implementation.
 # Miscellaneous
 
 [Find the smallest difference between lists](/algorithms/smallest-difference-between-lists/).
+
+[Reservoir sampling](/algorithms/reservoir-sampling/).
