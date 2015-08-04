@@ -55,3 +55,7 @@ Subtypes should be substitutable for their base types.
 # Refactoring
 A good design helps one to maintain speed in software development.
 Refactoring thus sometimes helps one develop software faster, because it keeps the quality of the design of the system.
+
+# Code smells
+
+[Primitive obsession](/oo-development/primitive-obsession/).
