@@ -1,3 +1,5 @@
 # Bernardo Sulzbach's Website
 
-Built on top of Lanyon (Jekyll theme).
+Using Jekyll and Lanyon (an awesome Jekyll theme).
+
+Feel free to open pull requests and issues.
