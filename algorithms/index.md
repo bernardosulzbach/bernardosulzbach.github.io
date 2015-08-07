@@ -121,6 +121,10 @@ public static void shuffle(List<?> list) {
 Note, however, that you can use Collections.shuffle(List). This is usually a
 Fisher-Yates implementation.
 
+# Heaps and heapsort
+
+[Heapsort](/algorithms/heapsort/).
+
 # Miscellaneous
 
 [Find the smallest difference between lists](/algorithms/smallest-difference-between-lists/).
