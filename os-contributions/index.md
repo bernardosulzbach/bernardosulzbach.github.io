@@ -5,6 +5,12 @@ tags: [sidebar]
 ---
 This is a list of all my contributions to open source projects.
 
-+ Translated <a href="https://github.com/sqlitebrowser/sqlitebrowser">DB Browser for SQLite</a> to Brazilian Portuguese.
-+ Did some code clean up in <a href="https://github.com/noplay/python-mysql-replication">python-mysql-replication</a>.
-+ Fixed several typos in the <a href="https://github.com/travis-ci/docs-travis-ci-com">documentation of Travis CI</a>.
++ Code clean up, refactorings, and suggestions on
+[java-design-patterns](https://github.com/iluwatar/java-design-patterns).
++ Translated
+[DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser)
+to Brazilian Portuguese.
++ Code clean up in
+[python-mysql-replication](https://github.com/noplay/python-mysql-replication).
++ Fixed several typos in the
+[Travis CIi documentation](https://github.com/travis-ci/docs-travis-ci-com).
