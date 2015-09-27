@@ -36,7 +36,7 @@ workplace.
 
 You should avoid downsizing. Companies that downsize are admitting that
 their management has blown it. There is a huge cost related to getting
-new employees up to speed that should always been taken into account
+new employees up to speed that should always be taken into account
 before laying someone off. It is fundamental to recognize the importance
 of investment in human capital when it comes to knowledge workers.
 
@@ -53,8 +53,7 @@ for celebrating good work done by the developers are **not a waste of
 time**.
 
 It is very common to projects to be overstaffed, mainly at the analysis
-and design phases. The human capital you invested represents a ton of
-money. Use it wisely.
+and design phases.
 
 Modern cities do not provide us with a sense of community; therefore
 building a community at your workspace is a great idea.
