@@ -10,7 +10,7 @@ It is licensed under GNU GPLv3.
 
 # Screenshots
 
-[Click here to go to the screenshot gallery](http://mafagafogigante.github.io/dungeon/screenshots/).
+[Click here to go to the screenshot gallery]({{ site.baseurl }}/dungeon/screenshots/).
 
 # Some links
 
@@ -21,7 +21,7 @@ It is licensed under GNU GPLv3.
 [Dungeon issue tracker](https://github.com/mafagafogigante/dungeon/issues){:target="_blank"}.
 You can use the issue tracker to report bugs or leave me your suggestions and questions.
 
-[Dungeon Java Style](https://mafagafogigante.github.io/dungeon/style){:target="_blank"}.
+[Dungeon Java Style]({{ site.baseurl }}/dungeon/style){:target="_blank"}.
 
 [Travis CI](https://travis-ci.org/mafagafogigante/dungeon){:target="_blank"} page.
 

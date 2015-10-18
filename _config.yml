@@ -10,8 +10,7 @@ tagline:             The website of a software developer
 description:         >
   A generic-purpose personal website and blog about computer science and
   software engineering.
-url:                 http://mafagafogigante.github.io
-baseurl:             ''
+baseurl:             ""
 paginate:            5
 
 # About/contact
