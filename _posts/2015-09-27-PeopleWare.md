@@ -46,7 +46,7 @@ management, which is severely affected by downsizings. For learning to
 take place, middle managers must be able to communicate with each other.
 
 A manager should never waste people’s time. Only convoke meetings with
-more than one person if these persons must interact with each other.
+more than one person if these people must interact with each other.
 *Any regular meeting is suspect as likely to have a ceremonial purpose
 rather than a goal of consensus*. Ceremonies at project milestones or
 for celebrating good work done by the developers are **not a waste of
