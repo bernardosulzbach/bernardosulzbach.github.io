@@ -104,4 +104,4 @@ calls are bounded by a constant. As the number of bubble down calls is `O(n)`,
 this solution is `O(n)`.
 
 # Implementations
-[This is my implementation of a priority queue and heapsort using Python 3](https://github.com/mafagafogigante/algorithms-and-data-structures/blob/master/priority-queue/priority_queue.py).
+[This is my implementation of a priority queue and heapsort using Python 3](https://github.com/mafagafogigante/algorithms-and-data-structures/blob/master/python/priority-queue/priority_queue.py).
