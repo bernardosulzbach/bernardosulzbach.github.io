@@ -14,4 +14,4 @@ Can be avoided by setting push.default to current. This can be done with the fol
 
     git config --global push.default current
 
-As creating a remote branch rarely is an issue, this seems to me a much better default setting.
+As creating a remote branch is rarely an issue, this seems to me a much better default setting.
