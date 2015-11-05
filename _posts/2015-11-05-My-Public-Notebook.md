@@ -12,5 +12,5 @@ So I started a public GitHub repository called ``formulas`` (may be renamed to
 sense that a single bash script triggers a new GitHub release and will, in a
 matter of one or two minutes, result in a new PDF in the repository releases.
 
-I invite you to check it out and, perhaps, open a pull request or give me some
-tips and suggestions.
+I invite you to [check it out](https://github.com/mafagafogigante/formulas)
+and, perhaps, open a pull request or give me some tips and suggestions.
