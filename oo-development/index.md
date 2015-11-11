@@ -13,7 +13,7 @@ software change.
 
 ## See also
 
-[Writing good use cases](/oo-development/writing-good-use-cases).
+[Writing good use cases](/oo-development/writing-good-use-cases/).
 
 ## Textual analysis of a use case
 Usually the nouns in a use case will become classes, but not every noun will be
