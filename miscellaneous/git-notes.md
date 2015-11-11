@@ -24,7 +24,9 @@ command:
 > working tree to be clean (no modifications from the `HEAD` commit).
 
 ## .gitgnore
+
 ### .git/info/exclude
+
 If the exclusion pattern is somehow specific to your repository, then it
 should go into the `.git/info/exclude` file, because it **is not
 propagated during clone operations**. Its pattern format and treatment
