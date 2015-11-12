@@ -6,3 +6,4 @@ tags: [sidebar]
 
 - [Git Notes](/miscellaneous/git-notes/)
 - [Life Hacks](/miscellaneous/life-hacks/)
+- [UFRGS](/miscellaneous/ufrgs/)
