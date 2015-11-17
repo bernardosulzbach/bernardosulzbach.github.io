@@ -73,3 +73,15 @@ Supervisor programs
 A supervisor program can orchestrate your Node.js application. It is a good
 practice to fail fast: if an unexpected error occurs, do not try to handle it,
 rather let your program crash and have the supervisor restart it.
+
+Performance
+===========
+Why is declaring a variable outside any function's scope in a browser slower
+than in Node.js? Within a web browser, the variable's scope makes it global
+and therefore binds it as a property of the huge `window` object. Therefore,
+declaring this variable in a web browser requires resolving a property within
+the heavily populated `window`.
+
+In Node.js, however, declaring any variable outside of any function's scope
+binds it only to the module's own scope which therefore makes it much easier
+and faster to resolve.
