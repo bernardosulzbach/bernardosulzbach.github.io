@@ -2,6 +2,7 @@
 layout: post
 title: "Most Important Things First #1"
 ---
+
 Ernest Hemingway woke each morning and began writing straight away. Some say.
 
 In Mason Currey’s book, Daily Rituals: How Artists Work, one idea is very

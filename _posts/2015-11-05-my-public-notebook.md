@@ -2,6 +2,7 @@
 layout: post
 title: My Public Notebook
 ---
+
 I have always kept formulas and definitions I had to remember written in text
 files (TXT, ODT, etc) on the cloud. Recently I decided that I should group all
 these notes in the same place and make them public so that others could also
