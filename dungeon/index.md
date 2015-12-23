@@ -5,7 +5,7 @@ tags: [sidebar]
 ---
 # What is it?
 
-Dungeon is a text-based RPG developed by me (with some help of awesome people) using Java SE 6.
+Dungeon is a text-based RPG developed by me (with some help of awesome people) using Java.
 It is licensed under GNU GPLv3.
 
 # Screenshots
@@ -28,7 +28,7 @@ You can use the issue tracker to report bugs or leave me your suggestions and qu
 # Requirements
 
 ## Runtime Requirements
-The only thing you need to run a release is Java (SE 6 or newer).
+The only thing you need to run a release is Java (SE 7 or newer).
 
 ## Development Requirements
 To clone and compile from source you will need:
