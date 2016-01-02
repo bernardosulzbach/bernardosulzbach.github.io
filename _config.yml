@@ -7,6 +7,7 @@ relative_permalinks: true
 title: Bernardo Sulzbach's Website
 tagline: The website of a software developer
 description: A blog about computer science and software engineering.
+repository: https://github.com/mafagafogigante/mafagafogigante.github.io/
 baseurl: ""
 paginate: 5
 
