@@ -3,8 +3,9 @@ layout: page
 title: Dungeon Screenshots
 ---
 
-![Lore and graveyard](/assets/lore-and-graveyard.png)
-![Battle](/assets/battle.png)
+![Poem](/assets/poem.png)
+![Combat](/assets/combat.png)
 ![Achievements](/assets/achievements.png)
 ![Map](/assets/map.png)
-![Statistics](/assets/stats.png)
+![New Game](/assets/new-game.png)
+![Wiki](/assets/wiki.png)
