@@ -3,14 +3,14 @@ layout: post
 title: Git Push Current
 ---
 
-Today I learned that the beloved message
+Today I learned that the message
 
     fatal: The current branch brunch has no upstream branch.
     To push the current branch and set the remote as upstream, use
 
         git push --set-upstream origin brunch
 
-Can be avoided by setting push.default to current. This can be done with the following command.
+Can be avoided by setting `push.default` to current. This can be done with the following command.
 
     git config --global push.default current
 
