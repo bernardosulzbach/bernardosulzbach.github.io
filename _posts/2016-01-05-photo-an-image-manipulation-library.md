@@ -11,7 +11,7 @@ Interpolation implementation out there in Java.
 
 According to Wikipedia,
 
-> [An article]({{ site.url }}/assets/performance-evaluation-of-edge-directed-interpolation.pdf)
+> [An article]({{ site.url }}/assets/performance-evaluation-of-edge-directed-interpolation-methods-for-images.pdf)
 > from 2013 compared the four algorithms above, and found that DCCI had the
 > best scores in PSNR and SSIM on a series of test images.
 
