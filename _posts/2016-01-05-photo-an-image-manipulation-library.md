@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Photo: an image manipulation library
+title: "Photo: an image manipulation library"
 ---
 
 This is an announcement of a Java image manipulation library I created.
