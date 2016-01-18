@@ -22,8 +22,8 @@ post.
 
 # Contact information
 
-You can e-mail me at <a
-href="mailto:mafagafogigante@gmail.com">mafagafogigante@gmail.com</a>
+You can e-mail me at [mafagafogigante@gmail.com](mailto:
+{{ site.author.email }}?subject=Website Contact).
 
 # My public repositories
 
