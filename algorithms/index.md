@@ -6,7 +6,7 @@ tags: [sidebar]
 
 # My algorithms repository
 
-[This](https://github.com/mafagafogigante/algorithms-and-data-structures) is my
+[This](https://github.com/mafagafogigante/algorithms) is my
 public algorithms and data structures repository at GitHub. Feel free to
 inspect my code and propose, or submit, any changes you want.
 
