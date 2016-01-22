@@ -19,4 +19,4 @@ summarizes them.
 3. The format `Copyright (C) [date] [name]` should not be changed.
 
 Therefore, I must set up Git Hooks that will update all license notes of the
-files with [Creation Year]-[Last Modification Year]. 
+files with a list of years in which the file has been modified.
