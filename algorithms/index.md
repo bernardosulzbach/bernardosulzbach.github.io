@@ -49,6 +49,32 @@ Therefore, the result of a bitwise and operation between `n` and `n – 1`, is
 
 If `n` has `x` set bits, it will take `x` operations to make `n = 0`.
 
+# Finding the number of digits of a factorial
+
+If the argument is not too big, this can easily be solved by using logarithms.
+
+See that the number of digits of `n!` is `ceil(log10(n!))` for all positive `n`.
+
+By definition,
+
+    n! = n * (n - 1) * ... * 1
+
+Therefore,
+
+    log(n!) = log(n) + log(n - 1) + ... + log(1)
+
+Therefore, a simple and fast solution in Python is:
+
+{% highlight python %}
+def factorial_digit_count(n):
+    return ceil(sum(log10(x) for x in range(1, n + 1)))
+{% endhighlight %}
+
+> Note: I have tested this solution with inputs as big as 1M (1,000,000,000)
+> and it gives a correct result. If you determine its limits, please let me
+> know. Also, feel free to share any performance improvements you think I am
+> missing.
+
 # Brent's Algorithm
 
 This algorithm detects whether a singly linked list has a cycle in linear time.
