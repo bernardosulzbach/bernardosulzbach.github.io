@@ -12,3 +12,5 @@ This is a list of all my contributions to open source projects.
 + Configured Travis CI for [fast-serialization](https://github.com/RuedigerMoeller/fast-serialization).
 + Fixed typos and reworded pages in the [Travis CI documentation](https://github.com/travis-ci/docs-travis-ci-com).
 + Spelling corrections on [Grimoire](https://github.com/ephe/grimoire).
+
+See also my [portfolio]({{ site.baseurl }}/portfolio).

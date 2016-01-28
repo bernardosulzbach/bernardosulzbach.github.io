@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Dungeon
-tags: [sidebar]
 ---
 # What is it?
 
