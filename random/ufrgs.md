@@ -1,6 +1,7 @@
 ---
 layout: page
 title: UFRGS
+tags: [random]
 ---
 
 This page contains some stuff about the entrance examination of a Brazilian

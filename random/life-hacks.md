@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Life Hacks
+tags: [random]
 ---
 
 This page contains a few small life hacks I like.

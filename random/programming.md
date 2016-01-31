@@ -1,12 +1,8 @@
 ---
 layout: page
 title: Programming
-tags: [sidebar]
+tags: [random]
 ---
-
-Definitions and notes that are too generic to get into a more specific category
-fall here.  If you think that something here should be moved to another page,
-please contact me.
 
 # Turing completeness
 A language with numbers, assignments, input, output, comparisons and looping
@@ -53,19 +49,3 @@ data storage that is slow to access but usually offers higher memory capacity.
 Primary memory can be stored in secondary memory, through a memory management
 technique called "virtual memory".
 
-# Class proliferation
-
-Designers of object-oriented systems should avoid class proliferation.  Such
-proliferation creates management problems and hinders software reusability,
-because it is difficult to locate the most appropriate classes in a huge
-library.  The alternative is to create fewer classes that provide more
-substantial functionality, but such classes might prove cumbersome to read and
-understand.
-
-# Polymorphism
-
-In type theory, polymorphism is the provision of a common interface to entities
-of different types. This allows references of more abstract types to represent
-the behavior of the concrete classes they reference.
-
-    Animal animal = new Bear(); // A trivial example.

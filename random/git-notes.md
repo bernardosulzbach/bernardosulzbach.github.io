@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Git Notes
+tags: [random]
 ---
 
 ## About this page

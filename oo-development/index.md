@@ -66,6 +66,14 @@ A good design helps one to maintain speed in software development. Refactoring
 thus sometimes helps one develop software faster, because it keeps the quality
 of the design of the system.
 
+# Class proliferation
+Designers of object-oriented systems should avoid class proliferation. Such
+proliferation creates management problems and hinders software reusability,
+because it is difficult to locate the most appropriate classes in a huge
+library. The alternative is to create fewer classes that provide more
+substantial functionality, but such classes might prove cumbersome to read and
+understand.
+
 # Static factory methods Vs. Constructors
 [In another page](/oo-development/static-factory-vs-constructors/).
 
