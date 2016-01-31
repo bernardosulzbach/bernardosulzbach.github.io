@@ -153,12 +153,16 @@ public static void shuffle(List<?> list) {
 Note, however, that you can use Collections.shuffle(List). This is usually a
 Fisher-Yates implementation.
 
-# Heaps and heapsort
+# String matching
 
-[Heapsort](/algorithms/heapsort/).
+[String matching page]({{ site.baseurl }}/algorithms/string-matching/).
+
+# Sorting
+
+[Sorting page]({{ site.baseurl }}/algorithms/sorting/).
 
 # Miscellaneous
 
-[Find the smallest difference between lists](/algorithms/smallest-difference-between-lists/).
+[Find the smallest difference between lists]({{ site.baseurl }}/algorithms/smallest-difference-between-lists/).
 
 [Reservoir sampling](/algorithms/reservoir-sampling/).
