@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Compound queries
+tags: [database-design]
 ---
 
 # Definition

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Views
+tags: [database-design]
 ---
 
 # Description

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Indexes
+tags: [database-design]
 ---
 
 # Description

@@ -4,7 +4,14 @@ title: Database Design
 tags: [sidebar]
 ---
 
-# Summary
-+ [Views](/database-design/views/)
-+ [Indexes](/database-design/indexes/)
-+ [Compound queries](/database-design/compound-queries/)
+Below is a list of the pages about database design on my website.
+
+<ul>
+{% for page in (site.pages | sort) %}
+  {% for tag in page.tags %} 
+    {% if tag == "database-design" %}
+      <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
