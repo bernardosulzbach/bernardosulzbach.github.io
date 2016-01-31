@@ -1,6 +1,6 @@
 ---
 layout: page
-title: List of Posts by Date
+title: List of posts by date
 tags: [random]
 ---
 

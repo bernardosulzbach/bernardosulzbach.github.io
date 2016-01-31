@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Programming
+title: Theoretical computer science notes
 tags: [random]
 ---
 

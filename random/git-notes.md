@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Git Notes
+title: Git notes
 tags: [random]
 ---
 

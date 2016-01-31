@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Node.js Notes
+title: Node.js notes
 tags: [random]
 ---
 

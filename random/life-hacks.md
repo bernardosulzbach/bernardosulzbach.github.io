@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Life Hacks
+title: Life hacks
 tags: [random]
 ---
 

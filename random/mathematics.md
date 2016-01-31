@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mathematics
+title: Mathematics notes
 tags: [random]
 ---
 

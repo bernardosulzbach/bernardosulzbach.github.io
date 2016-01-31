@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chemistry Notes
+title: Chemistry notes
 tags: [random]
 ---
 
