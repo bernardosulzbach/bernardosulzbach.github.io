@@ -10,6 +10,15 @@ tags: [sidebar]
 public algorithms and data structures repository at GitHub. Feel free to
 inspect my code and propose, or submit, any changes you want.
 
+# Rope
+
+A rope (or cord) is a data structure composed of smaller strings that is used
+for efficiently storing and manipulating a very big piece of text. Text editors
+may make use of this data structure so that insertions and deletions performed
+by the user can be done efficiently.
+
+See more about it on [its own page]({{ site.baseurl }}/algorithms/rope/).
+
 # Euclid's algorithm
 
 Finds the greatest common divisor (GCD) between two integers.
