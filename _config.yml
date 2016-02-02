@@ -8,7 +8,11 @@ description: A blog about computer science and software engineering.
 repository: https://github.com/mafagafogigante/mafagafogigante.github.io/
 url: http://mafagafogigante.org
 baseurl: ""
+
+# Pagination
+gems: [jekyll-paginate]
 paginate: 5
+paginate_path: "page/:num"
 
 # About/contact
 author:
