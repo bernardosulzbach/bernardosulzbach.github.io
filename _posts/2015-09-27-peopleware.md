@@ -29,7 +29,7 @@ an attempt to make up for bad management.
 Excessive internal competition in the same team is dangerous and
 increases the chance of the team as a whole to fail.
 
-The fundamental response to **change** is emotional, not logical. Do not
+**The fundamental response to change is *emotional*, not logical**. Do not
 ever demean the old ways. Instead, *celebrate the old as a way to help
 change happen*. I consider this true in many places other than the
 workplace.
@@ -48,8 +48,8 @@ take place, middle managers must be able to communicate with each other.
 A manager should never waste people’s time. Only convoke meetings with
 more than one person if these people must interact with each other.
 *Any regular meeting is suspect as likely to have a ceremonial purpose
-rather than a goal of consensus*. Ceremonies at project milestones or
-for celebrating good work done by the developers are **not a waste of
+rather than a goal of consensus*. **Ceremonies at project milestones or
+for celebrating good work done by the developers are not a waste of
 time**.
 
 It is very common to projects to be overstaffed, mainly at the analysis
@@ -57,6 +57,3 @@ and design phases.
 
 Modern cities do not provide us with a sense of community; therefore
 building a community at your workspace is a great idea.
-
-Do you have anything to add, remove, or change? Just open a pull request
-or email me your suggestions.
