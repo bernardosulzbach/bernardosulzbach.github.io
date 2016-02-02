@@ -29,7 +29,7 @@ large enough `m` and `n`.
 Here is a simple implementation of the second approach described above using C++
 that I just finished.
 
-{% highlight cpp %}
+```cpp
 unsigned find_smallest_difference(const uvector& a, const uvector& b) {
     uvector::const_iterator it_a = a.begin();
     uvector::const_iterator it_b = b.begin();
@@ -53,4 +53,4 @@ unsigned find_smallest_difference(const uvector& a, const uvector& b) {
     }
     return smallest_difference;
 }
-{% endhighlight %}
+```

@@ -23,20 +23,20 @@ See more about it on [its own page]({{ site.baseurl }}/algorithms/rope/).
 
 Finds the greatest common divisor (GCD) between two integers.
 
-{% highlight cpp %}
+```cpp
 N gcd(N a, N b) {
     while (a %= b) {
         swap(a, b);
     }
     return b;
 }
-{% endhighlight %}
+```
 
 # Brian Kernighan's algorithm
 
 Finds how many set bits there are in an integer.
 
-{% highlight cpp %}
+```cpp
 int count_set_bits(unsigned u) {
     int count = 0;
     while (u) { // Will loop until u has no more set bits.
@@ -45,7 +45,7 @@ int count_set_bits(unsigned u) {
     }
     return count;
 }
-{% endhighlight %}
+```
 
 ## Explanation
 
@@ -74,15 +74,12 @@ Therefore,
 
 Therefore, a simple and fast solution in Python is:
 
-{% highlight python %}
+```python
 def factorial_digit_count(n):
     return ceil(sum(log10(x) for x in range(1, n + 1)))
-{% endhighlight %}
+```
 
-> Note: I have tested this solution with inputs as big as 1M (1,000,000,000)
-> and it gives a correct result. If you determine its limits, please let me
-> know. Also, feel free to share any performance improvements you think I am
-> missing.
+> Note: I have tested this solution with inputs as big as 1M (1,000,000,000) and it gives a correct result. If you determine its limits, please let me know. Also, feel free to share any performance improvements you think I am missing.
 
 # Brent's Algorithm
 
@@ -99,7 +96,7 @@ It keeps track of how many steps the rabbit took since we last teleported the tu
 Mu denotes the index of the element where the loop starts, to find it, we reset the turtle to the first element of the list and the rabbit to lambda elements after the mu.
 When the rabbit and the turtle meet, the turtle is at mu.
 
-{% highlight python %}
+```python
     def brent(first_node):
         """
         Detects a loop in a linked list in O(n) time and O(1) space complexity.
@@ -133,7 +130,7 @@ When the rabbit and the turtle meet, the turtle is at mu.
             return mu, la
         else:
             return -1, -1
-{% endhighlight %}
+```
 
 # Andrew's monotone chain for convex hulls
 
@@ -150,14 +147,14 @@ pick one random element from the unsorted part of the array (including the
 current element) and swap it with the current element until the opposite end is
 reached. This is my implementation of the abovementioned algorithm in Java.
 
-{% highlight java %}
+```java
 public static void shuffle(List<?> list) {
     for (int i = list.size() - 1; i > 0; i--) {
         int index = (int) (Math.random() * (i + 1));
         Collections.swap(list, i, index);
     }
 }
-{% endhighlight %}
+```
 
 Note, however, that you can use Collections.shuffle(List). This is usually a
 Fisher-Yates implementation.

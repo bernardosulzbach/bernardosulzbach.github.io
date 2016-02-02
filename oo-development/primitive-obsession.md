@@ -30,7 +30,7 @@ To demonstrate this, I will use a code snippet from an open-world single-player
 role-playing-game I am currently developing called
 [Dungeon](https://github.com/mafagafogigante/dungeon).
 
-{% highlight java %}
+```java
 public abstract class Entity implements Selectable, Serializable {
 
   public final String id;
@@ -40,7 +40,7 @@ public abstract class Entity implements Selectable, Serializable {
   ...
 
 }
-{% endhighlight %}
+```
 
 id does not name a type, and neither does type or name.
 
@@ -49,7 +49,7 @@ id does not name a type, and neither does type or name.
 As ID is not as generic as a String and should be well encapsulated, I've
 decided to create the ID class.
 
-{% highlight java %}
+```java
 public final class ID implements Serializable {
 
   private final String id;
@@ -61,7 +61,7 @@ public final class ID implements Serializable {
   public String getId() { return id; }
 
 }
-{% endhighlight %}
+```
 
 This class seems too short to be useful, but it has yet another positive aspect:
 a descriptive name.
@@ -71,15 +71,15 @@ a descriptive name.
 This change, however, has a cascading effect. Fortunately enough, in this case,
 it is a pretty small one. All I needed to do was to change
 
-{% highlight java %}
+```java
 public String getId() { return id; }
-{% endhighlight %}
+```
 
 to
 
-{% highlight java %}
+```java
 public String getId() { return id.getId(); }
-{% endhighlight %}
+```
 
 in the Creature and Item classes.
 
@@ -90,9 +90,9 @@ After noticing the code repetition, I removed the getter from both classes and
 added a public getter to the Entity class (that is the superclass of both
 Creature and Item).
 
-{% highlight java %}
+```java
 public String getId() { return id.getId(); }
-{% endhighlight %}
+```
 
 # Result
 
@@ -104,7 +104,7 @@ simple Strings of text, but a specific kind of object in my application.
 There are a few restrictions that all IDs follow. So we can improve the class to
 account for this.
 
-{% highlight java %}
+```java
 public final class ID implements Serializable {
 
   private final String id;
@@ -118,7 +118,7 @@ public final class ID implements Serializable {
   public String getId() { return id; }
 
 }
-{% endhighlight %}
+```
 
 Now the ID constructor will parse the given String and make sure that it is a
 valid ID. If it finds an illegal character, it will fix it and log a warning.

@@ -16,15 +16,15 @@ Problem: determine the sum of the first ten thousand perfect squares
 
 ## Solution using list comprehension
 
-{% highlight python %}
+```python
 sum([n ** n for n in range(10 ** 4)])
-{% endhighlight %}
+```
 
 ## Solution using a generator
 
-{% highlight python %}
+```python
 sum((n ** n for n in range(10 ** 4)))
-{% endhighlight %}
+```
 
 In this case, refactoring is very simple, but usually you would have
 the list comprehension result assigned to a variable and used later on.
@@ -41,9 +41,9 @@ If you don't know about it yet, there is a nice tool called pympler that
 allows you to measure the memory size of collections. See the snippet
 below.
 
-{% highlight python %}
+```python
 from pympler.asizeof import asizeof
 
 
 print(asizeof(list_of_perfect_squares))  # 84 134 440 -> 79.28 MiB
-{% endhighlight %}
+```

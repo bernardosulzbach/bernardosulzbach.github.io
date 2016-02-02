@@ -33,12 +33,12 @@ hull. This new point should then be added to the hull.
 The "pseudocode" for this procedure is given below, it will likely make the
 concept clearer
 
-{% highlight python %}
+```python
 for p in points:
   while len(upper) >= 2 and cross(upper[-2], upper[-1], p) >= 0:
     upper.pop()
   upper.append(p)
-{% endhighlight %}
+```
 
 cross(o, a, b) here is the cross product of two column vectors (OA and OB). It
 is a positive value, if OAB makes a counter-clockwise turn, negative for

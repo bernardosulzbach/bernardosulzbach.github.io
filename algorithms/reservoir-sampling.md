@@ -17,7 +17,7 @@ algorithm. The problem statement is as follows:
 This is my implementation (using Python 3) of an algorithm that would solve this
 problem in Θ(n) time.
 
-{% highlight python %}
+```python
 def random_sample(iterator, k):
   sample = []
   elements_so_far = 0
@@ -30,7 +30,7 @@ def random_sample(iterator, k):
       if index < k:
         sample[index] = item
   return sample
-{% endhighlight %}
+```
 
 # Sources
 
