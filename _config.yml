@@ -9,8 +9,19 @@ repository: https://github.com/mafagafogigante/mafagafogigante.github.io/
 url: http://mafagafogigante.org
 baseurl: ""
 
+# Markdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+highlighter: rouge
+
+# Gems
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
+
 # Pagination
-gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "page/:num"
 
