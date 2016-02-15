@@ -9,9 +9,8 @@ should always be preserved, even if you are not interested on them anymore.
 They may live in a compressed file inside that old 512 GB HDD you hardly ever
 mount, but you have no reason to erase them. In fact, I think you should store
 them more safely than that, as there are several reasons to preserve them. Time
-flies, and as you see yourself aging you may want to remember how life were when
-you were younger. Not with just by one yellow picture. But by the texts you
-wrote, the code you developed, the art you made.
+flies, and as you see yourself aging you may want to remember how life was when
+you were younger. Not just by one yellowed picture. But by what you created.
 
 **What you produce in your limited lifetime is your legacy**. All of it. It
 tells about you. It describes you in different stages of your life and should be
