@@ -6,19 +6,12 @@ tags: [sidebar]
 
 # This website
 
-This is my general-purpose personal website and blog.
+This is my personal website. My main goal with it is to create a set of good
+and useful pages and posts about a wide variety of topics, with special focus
+on computer science and software engineering.
 
-My main goal is to create a set of good and useful pages and posts about a wide
-variety of topics, with special focus on computer science and software
-engineering.
-
-If you would like to make any changes to a post, either e-mail me your
-suggestion or open a pull request (or issue) on GitHub and I will analyse your
-idea.
-
-Old posts are not moved to the "top" when they are edited, therefore some posts
-created months (or even years) ago may be more up-to-date than the "newest"
-post.
+If you would like to make any changes to a post, or even write a post or page
+of your own, just e-mail me your suggestions or open a pull request on GitHub.
 
 # Contact information
 
@@ -30,7 +23,7 @@ You can e-mail me at [mafagafogigante@gmail.com](mailto:
 All my public repositories are either on GitHub or Bitbucket.
 
 [This](https://github.com/mafagafogigante){:target="_blank"} is my GitHub
-profile.  [This](https://bitbucket.org/mafagafogigante){:target="_blank"} is my
+profile. [This](https://bitbucket.org/mafagafogigante){:target="_blank"} is my
 Bitbucket profile.
 
 # Acknowledgements
