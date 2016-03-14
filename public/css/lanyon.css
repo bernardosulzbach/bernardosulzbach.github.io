@@ -331,28 +331,28 @@ a.sidebar-nav-item:focus {
   color: #9a9a9a;
 }
 
-/* Related posts */
+/* Post lists */
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
 }
-.related-posts {
+.posts {
   padding-left: 0;
   list-style: none;
 }
-.related-posts h3 {
+.posts h3 {
   margin-top: 0;
 }
-.related-posts li small {
+.posts li small {
   font-size: 75%;
   color: #999;
 }
-.related-posts li a:hover {
+.posts li a:hover {
   color: #268bd2;
   text-decoration: none;
 }
-.related-posts li a:hover small {
+.posts li a:hover small {
   color: inherit;
 }
 
