@@ -11,8 +11,8 @@ A simple set of rules and values govern how an infection spreads in a square
 board of 400 tiles. In the future, different challenges should be made
 available.
 
-It is [hosted at GitHub](https://github.com/infection-group/infection/) and
+It is [hosted at GitHub](https://github.com/contagium/contagium/) and
 released under the MIT license.
 
 You can find an online version of the project
-[here](http://infection.mafagafogigante.org/).
+[here](http://contagium.github.io).

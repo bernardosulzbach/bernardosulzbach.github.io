@@ -10,13 +10,13 @@ This is a non-exhaustive list of projects I am involved with.
   + See [the GitHub repository](https://github.com/mafagafogigante/dungeon),
     [the project page]({{ site.baseurl }}/dungeon)
 
-+ **Lyrics** - A lyric-guessing web application
-  + See [the website](http://lyrics.mafagafogigante.org/),
-    [the issue tracker](https://bitbucket.org/mafagafogigante/lyrics/issues)
++ **GuessSong** - A song-guessing web application
+  + See [the website](http://www.guesssong.com/),
+    [the issue tracker](https://bitbucket.org/mafagafogigante/guesssong/issues)
 
-+ **Infection** - A contagion JavaScript game
-  + See [the GitHub repository](https://github.com/infection-group/infection),
-    [the website](http://infection.mafagafogigante.org/)
++ **Contagium** - An infectionJavaScript game
+  + See [the GitHub repository](https://github.com/contagium/contagium/),
+    [the website](http://contagium.github.io/)
 
 + **Photo** - A Java image manipulation library
   + See [the GitHub repository](https://github.com/mafagafogigante/photo),
