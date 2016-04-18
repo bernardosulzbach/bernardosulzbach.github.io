@@ -20,6 +20,7 @@ In git, a **snapshot** is the state of a repository in a point in time.
 In git, cherry-pick is used to apply the changes introduced by some
 existing commits into the current working tree. The description of the
 command:
+
 > Given one or more existing commits, apply the change each one
 > introduces, recording a new commit for each. This requires your
 > working tree to be clean (no modifications from the `HEAD` commit).
