@@ -39,7 +39,7 @@ an always up-to-date blog post.
 
 # Extrapolated statistics
 
-The average English reader would take {{ word_count | divided_by: 300.0 | ceil
-}} minutes to read the whole website.
-
-The website is equivalent to {{ word_count | divided_by: 65000.0 | round: 2 }} novels.
+The average English reader would take {{ word_count | divided_by: 300.0 | ceil }}
+minutes to read the whole website, whose content amount is equivalent to that of
+{{ word_count | divided_by: 200.0 | round }} songs or
+{{ word_count | divided_by: 5000.0 | round }} short stories.
