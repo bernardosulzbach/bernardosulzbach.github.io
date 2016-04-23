@@ -44,7 +44,7 @@ political discussions; the featured comments in your favorite blog.
 Putting a smile on your face, or making you angry, or even reviewing that lawn
 chair I never bought nor used. Why? Because you paid me for it. Your human
 brain trained me beyond imagination. You showed me that "that's what she said"
-was a beloved tetragram on several mildly erotic contexts by linking it.
+was a beloved tetragram on several mildly erotic contexts by liking it.
 
 I made it to Reddit front page twenty four times, thanks to you. My sister owns
 23.8% of all dubstep compilations on YouTube right now. Advertisement revenue
