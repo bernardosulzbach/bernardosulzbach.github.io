@@ -4,9 +4,9 @@ permalink: pretty
 # Setup
 title: Bernardo Sulzbach's Website
 tagline: The website of a software developer
-description: A blog about computer science and software engineering.
+description: A site about computer science and software engineering.
 repository: https://github.com/mafagafogigante/mafagafogigante.github.io/
-url: https://mafagafogigante.org
+url: http://www.mafagafogigante.org
 baseurl: ""
 
 # Markdown
