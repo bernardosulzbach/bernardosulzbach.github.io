@@ -5,12 +5,18 @@ tags: [database-design]
 ---
 
 # ACID
-ACID (Atomicity, Consistency, Isolation, Durability) is a set of properties
-that guarantee that database transactions are processed reliably.
+
++ **A**tomicity
++ **C**onsistency
++ **I**solation
++ **D**urability
+
+ACID is a set of properties that guarantee that database transactions are processed reliably.
 
 # BASE
 
-BASE is an alternative to ACID.
++ **B**asic **A**vailability
++ **S**oft-state
++ **E**ventual consistency
 
-It stands for **B**asic **A**vailability, **S**oft state, **E**ventually
-consistent.
+BASE is an alternative to ACID whose guarantees are much looser than ACID guarantees.
