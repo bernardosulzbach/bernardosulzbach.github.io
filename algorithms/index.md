@@ -163,6 +163,10 @@ Fisher-Yates implementation.
 
 [String matching page]({{ site.baseurl }}/algorithms/string-matching/).
 
+# String similarity
+
+[Levenshtein distance page]({{ site.baseurl }}/algorithms/levenshtein-distance/).
+
 # Sorting
 
 [Sorting page]({{ site.baseurl }}/algorithms/sorting/).
