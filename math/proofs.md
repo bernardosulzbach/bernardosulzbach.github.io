@@ -3,7 +3,7 @@ layout: page
 title: Proofs
 ---
 
-# Divisibility by primes
+# Prime numbers
 
 ## If n² is divisible by a prime p, then n is divisible by p
 
