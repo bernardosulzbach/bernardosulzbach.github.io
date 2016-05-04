@@ -1,19 +1,13 @@
 ---
-layout: post
-title: "Proof #1"
+layout: page
+title: Proofs
 ---
 
-# What we are proving
+# Divisibility by primes
 
-If n² (n ∈ ℕ) is divisible by a prime p, then n is divisible by p.
+## If n² is divisible by a prime p, then n is divisible by p
 
-# About this post
-
-This is not a complicated proof. However, I wanted to start writing more about
-mathematics around here and decided that this was a worth posting. It should
-also help me see how well I can write without LaTeX support.
-
-# Specific proof for an integer value
+### Specific proof for an integer value
 
 Before proving the generalized version for all primes, I am going to prove that
 this is valid for a small prime. In this case, I've chosen 3. The easiest way I
@@ -34,7 +28,7 @@ This concludes the proof that if n is **not** divisible by 3, n² is also **not*
 divisible by 3, which also proves that if n² (n ∈ ℕ) is divisible by 3, n is
 divisible by 3.
 
-# Generalization for all primes
+### Generalization for all primes
 
 If n² (n ∈ ℕ) is divisible by a prime p, n is divisible by p.
 
@@ -46,3 +40,26 @@ Therefore n² = p(pk² + 2kq) + q². As p is a prime, p ∤ q² and therefore n�
 not divisible by p.
 
 This proves that  if n² (n ∈ ℕ) is divisible by a prime p, n is divisible by p.
+
+## The square root of any prime number is irrational
+
+This is a quite short and simple proof. I've noticed that proofs for specific
+primes seem to be much more popular. However, the proofs are so similar that it
+does not even make sense to prove a specific case instead of the general one.
+
+As one might expect, this is a [proof by reduction to the
+impossible](https://en.wikipedia.org/wiki/Reductio_ad_absurdum).
+
+### The proof
+
+Suppose that √p is a rational number. Therefore there exist two [mutually prime
+numbers](https://en.wikipedia.org/wiki/Coprime_integers) a and b such that √p =
+a / b.
+
+Therefore, p = a² / b². Then b² p = a², which implies that p divides a², and,
+because p is a prime, p divides a. Therefore, b² p = (k² p²), which can be
+simplified to b² = k² p. This implies that p divides b², and p divides b, which
+is absurd as a and b are mutually prime in our proof.
+
+By reduction to the impossible, this proves that the square root of any prime
+number p is an irrational number.
