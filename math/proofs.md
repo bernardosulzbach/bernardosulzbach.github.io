@@ -7,7 +7,7 @@ title: Proofs
 
 ## If n² is divisible by a prime p, then n is divisible by p
 
-### Specific proof for an integer value
+### Specific proof for a prime
 
 Before proving the generalized version for all primes, I am going to prove that
 this is valid for a small prime. In this case, I've chosen 3. The easiest way I
