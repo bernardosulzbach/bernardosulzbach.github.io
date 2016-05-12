@@ -20,7 +20,7 @@ your input is already sorted, it becomes a O(n) algorithm.
 The algorithm builds the convex hull by first making an upper hull and a lower
 hull and then merging both hulls together.
 
-![Illustration](/assets/upper-and-lower-convex-hulls.png)
+![Illustration]({{ site.baseurl }}/assets/upper-and-lower-convex-hulls.png)
 An illustration from [www.algorithmist.com](http://www.algorithmist.com/).
 
 In this example (where the points are sorted first by nondecreasing values of x,

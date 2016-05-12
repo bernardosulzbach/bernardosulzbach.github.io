@@ -17,9 +17,11 @@ cars sitting on flat ground at the bottom of the track?
 > friction.
 
 # Illustration
-![Illustration](/assets/physics_problem_illustration.png)
+
+![Illustration]({{ site.baseurl }}/assets/physics_problem_illustration.png)
 
 # My Solution
+
 The speed of the car after leaving the hill is equal to
 
     v = sqrt(kinetic_energy * 2 / m)
