@@ -134,7 +134,7 @@ When the rabbit and the turtle meet, the turtle is at mu.
 
 # Andrew's monotone chain for convex hulls
 
-Too big to be here. Got [its own page](/algorithms/andrew-monotone-chain-for-convex-hulls/).
+Too big to be here. Got [its own page]({{ site.baseurl }}/algorithms/andrew-monotone-chain-for-convex-hulls/).
 
 # Fisher–Yates shuffling algorithm
 
@@ -175,4 +175,4 @@ Fisher-Yates implementation.
 
 [Find the smallest difference between lists]({{ site.baseurl }}/algorithms/smallest-difference-between-lists/).
 
-[Reservoir sampling](/algorithms/reservoir-sampling/).
+[Reservoir sampling]({{ site.baseurl }}/algorithms/reservoir-sampling/).

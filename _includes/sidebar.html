@@ -23,7 +23,7 @@
         {% if node.layout == "page" %}
           {% for tag in node.tags %}
             {% if tag == "sidebar" %}
-              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
             {% endif %}
           {% endfor %}
         {% endif %}

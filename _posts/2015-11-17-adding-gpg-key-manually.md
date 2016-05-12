@@ -23,7 +23,7 @@ other commands to look like mine. So I already had the "best command".
 After some more Googling I found that I could grab the key manually and add it
 without a request to a server.
 
-So I tried and got [the key](/assets/10gen-gpg-key.asc).
+So I tried and got [the key]({{ site.baseurl }}/assets/10gen-gpg-key.asc).
 
 Ran
 
