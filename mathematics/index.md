@@ -1,13 +1,44 @@
 ---
 layout: page
-title: Proofs
+title: Mathematics
+tags: [sidebar]
 ---
 
-# Prime numbers
+## Significant figures
 
-## If n² is divisible by a prime p, then n is divisible by p
+### Definition
+The significant figures of a number are those digits that carry meaning
+contributing to its precision. This includes all digits except all leading zeros
+and trailing zeros when they are used to indicate the scale of the number.
 
-### Specific proof for a prime
+## Calculations
+The result of addition and subtraction should have as many decimal places as the
+term with less decimal places.
+
+The result of multiplication and division should have as many significant
+figures as the least precise term.
+
+## Rounding
+If the first non-significant figure is a 5 not followed by any other digits or
+followed only by zeros, rounding requires a tie-breaking rule.
+
+**Round half up** is the default rounding method used in many disciplines if
+the tie-breaking rule is not specified. **Round half to even** rounds to the
+nearest even number.
+
+## Set Theory
+
+### Power Set
+The power set `P(S)` is the set of all subsets of `S`, including the empty
+set and the set `S` itself.
+
+It has `2^n` elements where `n` is the number of elements in `S`.
+
+## Proofs
+
+### If n² is divisible by a prime p, then n is divisible by p
+
+#### Proof for a specific prime
 
 Before proving the generalized version for all primes, I am going to prove that
 this is valid for a small prime. In this case, I've chosen 3. The easiest way I
@@ -28,7 +59,7 @@ This concludes the proof that if n is **not** divisible by 3, n² is also **not*
 divisible by 3, which also proves that if n² (n ∈ ℕ) is divisible by 3, n is
 divisible by 3.
 
-### Generalization for all primes
+#### Generalization for all primes
 
 If n² (n ∈ ℕ) is divisible by a prime p, n is divisible by p.
 
@@ -41,7 +72,7 @@ not divisible by p.
 
 This proves that  if n² (n ∈ ℕ) is divisible by a prime p, n is divisible by p.
 
-## The square root of any prime number is irrational
+### The square root of any prime number is irrational
 
 This is a quite short and simple proof. I've noticed that proofs for specific
 primes seem to be much more popular. However, the proofs are so similar that it
@@ -50,11 +81,9 @@ does not even make sense to prove a specific case instead of the general one.
 As one might expect, this is a [proof by reduction to the
 impossible](https://en.wikipedia.org/wiki/Reductio_ad_absurdum).
 
-### The proof
-
-Suppose that √p is a rational number. Therefore there exist two [mutually prime
-numbers](https://en.wikipedia.org/wiki/Coprime_integers) a and b such that √p =
-a / b.
+Suppose that the square root of p is a rational number. Therefore there exist
+two [mutually prime numbers](https://en.wikipedia.org/wiki/Coprime_integers) a
+and b such that the square root of p equals the ratio between a and b.
 
 Therefore, p = a² / b². Then b² p = a², which implies that p divides a², and,
 because p is a prime, p divides a. Therefore, b² p = (k² p²), which can be
