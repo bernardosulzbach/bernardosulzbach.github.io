@@ -40,6 +40,9 @@ nbproject
 validation-status.json
 validation-report.json
 
+# Jekyll
+.jekyll-metadata
+
 # Folders to ignore
 node_modules
 bower_components
