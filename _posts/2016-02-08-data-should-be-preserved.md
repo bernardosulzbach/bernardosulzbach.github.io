@@ -18,7 +18,7 @@ safely stored for remembering moments that - no matter how sad or how happy -
 made up your existence. This post is to highlight the importance of writing,
 drawing, photographing, composing, creating, and, ultimately, **preserving**.
 
-Not content just for the sake of it, but your life for, the importance of it.
+Not content just for the sake of it, but your life, for the importance of it.
 Even if you don't care, maybe your family and close relatives one day will.
 Maybe historians years after from now will. Maybe another species someday will.
 
