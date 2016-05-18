@@ -1,5 +1,5 @@
 # Permalinks
-permalink: /:title
+permalink: /:title/
 
 # Setup
 title: Bernardo Sulzbach
