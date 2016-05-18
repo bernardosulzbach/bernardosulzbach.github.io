@@ -4,12 +4,12 @@ title: Dungeon is using the BSD 3-Clause license
 ---
 
 Last weekend I was determined to solve [Dungeon's licensing issues]({{ site.url
-}}/2016/01/21/license-notes-should-have-a-date/). However, after seeing how
-much work figuring out in which year each file was modified from Git history
-would be, I decided to take a simpler route that I believe will make Dungeon an
-even better project. I changed to the BSD 3-Clause license, which seems to
-accept having a single license notice for the whole project. Thus, individual
-files no longer need their own preambles.
+}}/license-notes-should-have-a-date/). However, after seeing how much work
+figuring out in which year each file was modified from Git history would be, I
+decided to take a simpler route that I believe will make Dungeon an even better
+project. I changed to the BSD 3-Clause license, which seems to accept having a
+single license notice for the whole project. Thus, individual files no longer
+need their own preambles.
 
 From the [GNU
 website](https://www.gnu.org/licenses/gpl-faq.en.html#NoticeInSourceFile):
