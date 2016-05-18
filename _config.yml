@@ -19,6 +19,7 @@ highlighter: rouge
 gems:
   - jekyll-coffeescript
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Pagination
 paginate: 5
