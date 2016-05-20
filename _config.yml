@@ -3,7 +3,7 @@ permalink: /:title/
 
 # Setup
 title: Bernardo Sulzbach
-description: My thoughts, computer science, and software engineering.
+description: Computers and Mathematics
 repository: https://github.com/mafagafogigante/mafagafogigante.github.io/
 url: http://www.mafagafogigante.org
 baseurl: ""
