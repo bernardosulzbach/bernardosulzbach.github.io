@@ -30,7 +30,7 @@ nearest even number.
 
 ### Power Set
 The power set P(S) is the set of all subsets of S, including the empty set and
-the set S itself. It has 2 ^ |S| elements.
+the set S itself. It has 2<sup>|S|</sup> elements.
 
 ## Proofs
 
