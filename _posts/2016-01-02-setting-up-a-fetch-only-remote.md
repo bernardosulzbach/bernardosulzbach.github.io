@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up a fetch-only remote
+title: "Setting up a Fetch-Only Remote"
 ---
 
 It may happen that you have a remote to which you have push rights but will

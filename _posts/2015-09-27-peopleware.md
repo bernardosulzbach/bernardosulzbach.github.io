@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PeopleWare
+title: "PeopleWare"
 ---
 
 This is a short post about what I learned from reading PeopleWare for

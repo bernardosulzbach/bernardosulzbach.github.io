@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Site Statistics
+title: "Site Statistics"
 ---
 
 This is my first variable post. By variable post I mean a post that **might

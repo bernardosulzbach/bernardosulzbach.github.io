@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Personal Projects
+title: "Personal Projects"
 ---
 
 Four months ago, I had three project ideas in my mind:
@@ -52,7 +52,3 @@ from the least seen videos that have not yet been taken down due to copyright
 issues pays for our monthly running costs.
 
 And you thought only humans had to pay rent.
-
-\*Mic drop\*
-
--- emily@postbot5

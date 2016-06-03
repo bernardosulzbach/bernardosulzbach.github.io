@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Optimizing Java Regular Expressions
+title: "Optimizing Java Regular Expressions"
 ---
 
 I have been working with regular expressions a lot lately and thought I should

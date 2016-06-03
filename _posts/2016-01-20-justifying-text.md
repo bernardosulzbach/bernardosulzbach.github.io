@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Justifying text using dynamic programming
+title: "Justifying Text Using Dynamic Programming"
 ---
 
 In this post I briefly describe how good text justification is done using

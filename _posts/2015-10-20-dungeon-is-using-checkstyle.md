@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dungeon is Using Checkstyle
+title: "Dungeon is Using Checkstyle"
 ---
 
 Dungeon has had a [style

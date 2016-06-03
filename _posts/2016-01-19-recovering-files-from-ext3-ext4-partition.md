@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recovering deleted files from an ext3 or ext4 partition
+title: "Recovering Deleted Files from an ext3 or ext4 Partition"
 ---
 
 Yesterday I accidentally invoked `bunzip2` without the `--keep` flag.  This

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I Deal With Spam
+title: "How I Deal With Spam"
 ---
 
 The struggle is real. Spam is here to stay, but filters have evolved a lot in

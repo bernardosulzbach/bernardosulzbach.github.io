@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Infection
+title: "Infection"
 ---
 
 Infection is a sandbox contagion simulator I recently started working on. It

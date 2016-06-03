@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Pushing to a remote branch with a different name
-tags: [programming]
+title: "Pushing to a Branch of Different Name"
 ---
 
-This post is just another small git tip. If you ever need to push to a remote
-branch with a different name than your local branch, use
+This post is another small git tip. If you ever need to push to a remote branch
+with a different name than your local branch, use
 
     git push origin local-name:origin-name
 

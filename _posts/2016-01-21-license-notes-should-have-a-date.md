@@ -1,6 +1,6 @@
 ---
 layout: post
-title: License notes should have a date
+title: "License Notes Should Have a Date"
 ---
 
 When working on [dungeon](https://github.com/mafagafogigante/dungeon/) license

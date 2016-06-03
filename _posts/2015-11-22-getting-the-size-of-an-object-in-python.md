@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting the size of an object in Python
+title: "Getting the Size of an Object in Python"
 ---
 
 Recently, I found myself wondering how much memory a Python list I had in my

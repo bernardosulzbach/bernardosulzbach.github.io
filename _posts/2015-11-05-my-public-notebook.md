@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Public Notebook
+title: "My Public Notebook"
 ---
 
 I have always kept formulas and definitions I had to remember written in text

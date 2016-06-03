@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Conservation of Momentum Exercise
-tags: [physics]
+title: "Conservation of Momentum Exercise"
 ---
 
 # Problem Statement

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data should be preserved
+title: "Data Should Be Preserved"
 ---
 
 I believe that data should never be lost. Specially data that are costly to make

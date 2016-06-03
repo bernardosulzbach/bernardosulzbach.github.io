@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why Forbid Object Cloning
+title: "Why Forbid Object Cloning"
 ---
 
 These are the reasons why I chose to forbid object cloning:

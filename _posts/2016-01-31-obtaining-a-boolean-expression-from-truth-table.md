@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Obtaining a boolean expression from a truth table
+title: "Obtaining a Boolean Expression from a Truth Table"
 ---
 
 Producing a truth table from a boolean expression is a trivial task, as you

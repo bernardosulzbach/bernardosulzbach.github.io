@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I Write
+title: "How I Write"
 ---
 
 This very short post was inspired by [this post by Leonard

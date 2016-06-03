@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Bolt Factory
+title: "The Bolt Factory"
 ---
 
 This is my solution to a problem called The Bolt Factory. The problem statement follows

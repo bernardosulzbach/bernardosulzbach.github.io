@@ -1,6 +1,6 @@
 ---
-title: CPU Cache Basics
 layout: post
+title: "CPU Cache Basics"
 ---
 
 This post covers fundamental cache concepts such as locality of reference,

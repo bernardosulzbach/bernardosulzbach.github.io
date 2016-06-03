@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python: use generators to preserve memory"
+title: "Python: Use Generators to Save Memory"
 ---
 
 Even though this feature is not new at all, very few seem to use

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adding a GPG key manually
+title: "Adding a GPG Key Manually"
 ---
 
 I was trying to install MongoDB 3.0 in my production machine and in order to be

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git Push Current
+title: "Git Push Current"
 ---
 
 Today I learned that the message

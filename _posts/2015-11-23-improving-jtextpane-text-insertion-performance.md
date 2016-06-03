@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improving JTextPane text insertion performance
+title: "Improving JTextPane Insertion Performance"
 ---
 
 After I started benchmarking how much time commands took to complete in
