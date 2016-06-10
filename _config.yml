@@ -2,8 +2,8 @@
 permalink: /:title/
 
 # Setup
-title: Bernardo Sulzbach
-description: Computers and Mathematics
+title: Bernardo Sulzbach's Website
+description: Discourses on computers, software, and mathematics
 repository: https://github.com/mafagafogigante/mafagafogigante.github.io/
 url: http://www.mafagafogigante.org
 baseurl: ""
