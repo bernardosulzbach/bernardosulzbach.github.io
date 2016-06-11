@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <script src='d3.v3.min.js'></script>
+    <script src='humanize.min.js'></script>
+    <title>Population Trends</title>
+</head>
+<body>
+<div id='doughnut'></div>
+<script>
+    (function (d3) {
+        /**
+         * An array of country objects sorted by current population in non-ascending order.
+         */
+        var data = [];
+        var data_year = 2015;
+        var data_is_available = false;
+
+        function compare_countries_by_population(a, b) { // Reversed natural ordering on current population
+            if (a['current'] < b['current']) {
+                return -1;
+            } else if (a['current'] == b['current']) {
+                return 0;
+            } else {
+                return 1;
+            }
+        }
+
+        d3.json('processed.json', function (error, countries) {
+            if (error) {
+                console.log(error);
+            } else {
+                data = countries.sort(compare_countries_by_population).reverse();
+                data_is_available = true;
+                draw();
+            }
+        });
+
+        var selected_index = 0;
+
+        /**
+         * Simulates what the World's population is going to be like after the provided number of years has passed.
+         */
+        function interpolate_data(data, year_count) {
+            data.map(function (country) {
+                country['current'] = Math.pow(country['trend'], year_count) * country['current'];
+                return country;
+            });
+            // Keep the data sorted for the drawing functions.
+            data = data.sort(compare_countries_by_population).reverse();
+            return data;
+        }
+
+        // The function that actually draws the graph
+        // Should only be called after the data array has been initialized
+        function draw() {
+            var padding = 10;
+            var window_width = window.innerWidth;
+            var window_height = window.innerHeight;
+            var svg_width = window_width - padding;
+            var svg_height = window_height - padding;
+            var outer_radius = Math.min(svg_width, svg_height) * 0.4;
+            var inner_radius = 0.5 * outer_radius;
+            // Remove the old SVG, if it exists
+            d3.select('svg').remove();
+            var svg = d3.select('#doughnut')
+                    .append('svg').attr('width', svg_width).attr('height', svg_height)
+                    .append('g').attr('transform', 'translate(' + window_width / 2 + ',' + window_height / 2 + ')');
+
+            var pie = d3.layout.pie().value(function (d) {
+                return d.current;
+            }).sort(null);
+
+            var arc = d3.svg.arc().innerRadius(inner_radius).outerRadius(outer_radius);
+
+            // Store one category instead of creating many
+            var color = d3.scale.category20b();
+
+            // Make an array with the biggest countries and a group of the smaller
+            var represented_country_count = 64;
+            var processed_data = data.slice(0, represented_country_count);
+            var unrepresented_current_population = 0;
+            data.slice(represented_country_count).forEach(function (country) {
+                unrepresented_current_population += country['current'];
+            });
+            processed_data.push({
+                'current': unrepresented_current_population,
+                'labels': ['Others', null],
+                'trend': NaN // We do not compute this value.
+            });
+            var path = svg.selectAll('path').data(pie(processed_data)).enter()
+                    .append('path')
+                    .attr('d', arc)
+                    .attr('fill', function (d) {
+                        return color(d.data['labels'][1]);
+                    })
+                    .each(function (d, i) {
+                        if (i == selected_index) {
+                            d3.select(this).attr('stroke', 'black');
+                        }
+                    });
+            path.on('mousedown', function (d, i) {
+                selected_index = i;
+            });
+            function report_about_selected_country() {
+                // Calculate the percentage of the global population (slowest step)
+                var total_population = 0;
+                data.forEach(function (country) {
+                    total_population += country['current']
+                });
+                var selected = data[selected_index];
+                var ratio = selected['current'] / total_population;
+                var percentage_string = Math.round(100 * ratio) + '%';
+                var current_population_string = Humanize.compactInteger(Math.round(selected['current']), 2);
+                return {
+                    'position': selected_index + 1,
+                    'name': selected['labels'][0],
+                    'current': current_population_string,
+                    'percentage': percentage_string
+                };
+            }
+
+            var font_size_large = Math.floor(inner_radius / 2);
+            var font_size_small = Math.floor(font_size_large / 3);
+            svg.append('text').datum(data_year)
+                    .attr('text-anchor', 'middle') // Center horizontally
+                    .attr('font-family', 'sans-serif')
+                    .attr('font-size', font_size_large + 'px') // Set a relative font-size
+                    .text(function (d) {
+                        return d;
+                    });
+            var report = report_about_selected_country();
+            svg.append('text').datum(report)
+                    .attr('text-anchor', 'middle') // Center horizontally
+                    .attr('font-family', 'sans-serif')
+                    .attr('y', 1.4 * font_size_small)
+                    .attr('font-size', font_size_small + 'px') // Set a relative font-size
+                    .text(function (d) {
+                        var maximum_length = 16;
+                        var name = d.name;
+                        if (d.name.length > maximum_length) {
+                            name = Humanize.truncate(name, maximum_length);
+                        }
+                        return name;
+                    }).append('svg:tspan')
+                    .attr('x', 0)
+                    .attr('dy', font_size_small)
+                    .text(function (d) {
+                        return d.current + ' (' + Humanize.ordinal(d.position) + ')';
+                    });
+        }
+
+        /**
+         * This function calls draw() to redraw the graph if the data is available.
+         */
+        function redraw() {
+            if (data_is_available) {
+                draw();
+            }
+        }
+
+        window.addEventListener('resize', redraw);
+
+        setInterval(function () {
+            data = interpolate_data(data, 1);
+            data_year += 1;
+            redraw();
+        }, 1000); // Increase year count after 1 second
+    })(window.d3);
+</script>
+</body>
+</html>

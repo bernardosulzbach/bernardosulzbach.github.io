@@ -1,0 +1,1714 @@
+[
+    {
+        "current": 103441,
+        "labels": [
+            "Aruba",
+            "ABW"
+        ],
+        "trend": 1.0051045106738232
+    },
+    {
+        "current": 72786,
+        "labels": [
+            "Andorra",
+            "AND"
+        ],
+        "trend": 0.9579520227581404
+    },
+    {
+        "current": 31627506,
+        "labels": [
+            "Afghanistan",
+            "AFG"
+        ],
+        "trend": 1.0314744239334996
+    },
+    {
+        "current": 24227524,
+        "labels": [
+            "Angola",
+            "AGO"
+        ],
+        "trend": 1.03342528219815
+    },
+    {
+        "current": 2894475,
+        "labels": [
+            "Albania",
+            "ALB"
+        ],
+        "trend": 0.9989627410863747
+    },
+    {
+        "current": 9086139,
+        "labels": [
+            "United Arab Emirates",
+            "ARE"
+        ],
+        "trend": 1.0074364646377745
+    },
+    {
+        "current": 42980026,
+        "labels": [
+            "Argentina",
+            "ARG"
+        ],
+        "trend": 1.0104548797863475
+    },
+    {
+        "current": 3006154,
+        "labels": [
+            "Armenia",
+            "ARM"
+        ],
+        "trend": 1.004658697331192
+    },
+    {
+        "current": 55434,
+        "labels": [
+            "American Samoa",
+            "ASM"
+        ],
+        "trend": 1.0018724625904563
+    },
+    {
+        "current": 90900,
+        "labels": [
+            "Antigua and Barbuda",
+            "ATG"
+        ],
+        "trend": 1.010226261555443
+    },
+    {
+        "current": 23470118,
+        "labels": [
+            "Australia",
+            "AUS"
+        ],
+        "trend": 1.01618968282818
+    },
+    {
+        "current": 8545908,
+        "labels": [
+            "Austria",
+            "AUT"
+        ],
+        "trend": 1.0068522914713922
+    },
+    {
+        "current": 9535079,
+        "labels": [
+            "Azerbaijan",
+            "AZE"
+        ],
+        "trend": 1.012789399376679
+    },
+    {
+        "current": 10816860,
+        "labels": [
+            "Burundi",
+            "BDI"
+        ],
+        "trend": 1.0336232500122835
+    },
+    {
+        "current": 11231213,
+        "labels": [
+            "Belgium",
+            "BEL"
+        ],
+        "trend": 1.0046157692992999
+    },
+    {
+        "current": 10598482,
+        "labels": [
+            "Benin",
+            "BEN"
+        ],
+        "trend": 1.0269358207156511
+    },
+    {
+        "current": 17589198,
+        "labels": [
+            "Burkina Faso",
+            "BFA"
+        ],
+        "trend": 1.0296489649275165
+    },
+    {
+        "current": 159077513,
+        "labels": [
+            "Bangladesh",
+            "BGD"
+        ],
+        "trend": 1.0122277984674937
+    },
+    {
+        "current": 7223938,
+        "labels": [
+            "Bulgaria",
+            "BGR"
+        ],
+        "trend": 0.9943756945095876
+    },
+    {
+        "current": 1361930,
+        "labels": [
+            "Bahrain",
+            "BHR"
+        ],
+        "trend": 1.0105753710456762
+    },
+    {
+        "current": 383054,
+        "labels": [
+            "Bahamas, The",
+            "BHS"
+        ],
+        "trend": 1.0142200688557383
+    },
+    {
+        "current": 3817554,
+        "labels": [
+            "Bosnia and Herzegovina",
+            "BIH"
+        ],
+        "trend": 0.9985800090822148
+    },
+    {
+        "current": 9470000,
+        "labels": [
+            "Belarus",
+            "BLR"
+        ],
+        "trend": 1.0003169460518841
+    },
+    {
+        "current": 351706,
+        "labels": [
+            "Belize",
+            "BLZ"
+        ],
+        "trend": 1.022030424919086
+    },
+    {
+        "current": 65181,
+        "labels": [
+            "Bermuda",
+            "BMU"
+        ],
+        "trend": 1.002951000453735
+    },
+    {
+        "current": 10561887,
+        "labels": [
+            "Bolivia",
+            "BOL"
+        ],
+        "trend": 1.0156569294267004
+    },
+    {
+        "current": 206077898,
+        "labels": [
+            "Brazil",
+            "BRA"
+        ],
+        "trend": 1.0090408730967346
+    },
+    {
+        "current": 283380,
+        "labels": [
+            "Barbados",
+            "BRB"
+        ],
+        "trend": 1.003191161741526
+    },
+    {
+        "current": 417394,
+        "labels": [
+            "Brunei Darussalam",
+            "BRN"
+        ],
+        "trend": 1.0145448620477384
+    },
+    {
+        "current": 765008,
+        "labels": [
+            "Bhutan",
+            "BTN"
+        ],
+        "trend": 1.0142171109737046
+    },
+    {
+        "current": 2219937,
+        "labels": [
+            "Botswana",
+            "BWA"
+        ],
+        "trend": 1.0202181221597826
+    },
+    {
+        "current": 4804316,
+        "labels": [
+            "Central African Republic",
+            "CAF"
+        ],
+        "trend": 1.0198077259778382
+    },
+    {
+        "current": 35543658,
+        "labels": [
+            "Canada",
+            "CAN"
+        ],
+        "trend": 1.0113336351533977
+    },
+    {
+        "current": 8188102,
+        "labels": [
+            "Switzerland",
+            "CHE"
+        ],
+        "trend": 1.0118866595698237
+    },
+    {
+        "current": 162917,
+        "labels": [
+            "Channel Islands",
+            "CHI"
+        ],
+        "trend": 1.0048877707130852
+    },
+    {
+        "current": 17762647,
+        "labels": [
+            "Chile",
+            "CHL"
+        ],
+        "trend": 1.0107030368196313
+    },
+    {
+        "current": 1364270000,
+        "labels": [
+            "China",
+            "CHN"
+        ],
+        "trend": 1.0050126295128914
+    },
+    {
+        "current": 22157107,
+        "labels": [
+            "Cote d'Ivoire",
+            "CIV"
+        ],
+        "trend": 1.0246796766101858
+    },
+    {
+        "current": 22773014,
+        "labels": [
+            "Cameroon",
+            "CMR"
+        ],
+        "trend": 1.0253831229476318
+    },
+    {
+        "current": 4504962,
+        "labels": [
+            "Congo, Rep.",
+            "COG"
+        ],
+        "trend": 1.025203211882125
+    },
+    {
+        "current": 47791393,
+        "labels": [
+            "Colombia",
+            "COL"
+        ],
+        "trend": 1.009662751592383
+    },
+    {
+        "current": 769991,
+        "labels": [
+            "Comoros",
+            "COM"
+        ],
+        "trend": 1.024460247351994
+    },
+    {
+        "current": 513906,
+        "labels": [
+            "Cabo Verde",
+            "CPV"
+        ],
+        "trend": 1.0129297826036154
+    },
+    {
+        "current": 4757606,
+        "labels": [
+            "Costa Rica",
+            "CRI"
+        ],
+        "trend": 1.011053527488396
+    },
+    {
+        "current": 11379111,
+        "labels": [
+            "Cuba",
+            "CUB"
+        ],
+        "trend": 1.0016068121529993
+    },
+    {
+        "current": 155909,
+        "labels": [
+            "Curacao",
+            "CUW"
+        ],
+        "trend": 1.01248446205281
+    },
+    {
+        "current": 59172,
+        "labels": [
+            "Cayman Islands",
+            "CYM"
+        ],
+        "trend": 1.0142410518117582
+    },
+    {
+        "current": 1153658,
+        "labels": [
+            "Cyprus",
+            "CYP"
+        ],
+        "trend": 1.0107257014830218
+    },
+    {
+        "current": 10525347,
+        "labels": [
+            "Czech Republic",
+            "CZE"
+        ],
+        "trend": 1.0006925423285544
+    },
+    {
+        "current": 80970732,
+        "labels": [
+            "Germany",
+            "DEU"
+        ],
+        "trend": 1.00353778653394
+    },
+    {
+        "current": 876174,
+        "labels": [
+            "Djibouti",
+            "DJI"
+        ],
+        "trend": 1.0134518054007327
+    },
+    {
+        "current": 72341,
+        "labels": [
+            "Dominica",
+            "DMA"
+        ],
+        "trend": 1.0045651584736217
+    },
+    {
+        "current": 5638530,
+        "labels": [
+            "Denmark",
+            "DNK"
+        ],
+        "trend": 1.004190219173318
+    },
+    {
+        "current": 10405943,
+        "labels": [
+            "Dominican Republic",
+            "DOM"
+        ],
+        "trend": 1.0122784548169834
+    },
+    {
+        "current": 38934334,
+        "labels": [
+            "Algeria",
+            "DZA"
+        ],
+        "trend": 1.0197689510187053
+    },
+    {
+        "current": 15902916,
+        "labels": [
+            "Ecuador",
+            "ECU"
+        ],
+        "trend": 1.0155547431273677
+    },
+    {
+        "current": 89579670,
+        "labels": [
+            "Egypt, Arab Rep.",
+            "EGY"
+        ],
+        "trend": 1.0226179564476947
+    },
+    {
+        "current": 5110444,
+        "labels": [
+            "Eritrea",
+            "ERI"
+        ],
+        "trend": 1.0220585265171467
+    },
+    {
+        "current": 46476032,
+        "labels": [
+            "Spain",
+            "ESP"
+        ],
+        "trend": 0.9968197965690795
+    },
+    {
+        "current": 1314545,
+        "labels": [
+            "Estonia",
+            "EST"
+        ],
+        "trend": 0.9969141407880862
+    },
+    {
+        "current": 96958732,
+        "labels": [
+            "Ethiopia",
+            "ETH"
+        ],
+        "trend": 1.0255307999238616
+    },
+    {
+        "current": 5461512,
+        "labels": [
+            "Finland",
+            "FIN"
+        ],
+        "trend": 1.0043810164220381
+    },
+    {
+        "current": 886450,
+        "labels": [
+            "Fiji",
+            "FJI"
+        ],
+        "trend": 1.0070062491868872
+    },
+    {
+        "current": 66217509,
+        "labels": [
+            "France",
+            "FRA"
+        ],
+        "trend": 1.0043896215821901
+    },
+    {
+        "current": 48221,
+        "labels": [
+            "Faroe Islands",
+            "FRO"
+        ],
+        "trend": 0.9982213492395188
+    },
+    {
+        "current": 104044,
+        "labels": [
+            "Micronesia, Fed. Sts.",
+            "FSM"
+        ],
+        "trend": 1.002547263640881
+    },
+    {
+        "current": 1687673,
+        "labels": [
+            "Gabon",
+            "GAB"
+        ],
+        "trend": 1.0227303629693332
+    },
+    {
+        "current": 64559135,
+        "labels": [
+            "United Kingdom",
+            "GBR"
+        ],
+        "trend": 1.006718646186472
+    },
+    {
+        "current": 3727000,
+        "labels": [
+            "Georgia",
+            "GEO"
+        ],
+        "trend": 0.9871064237842029
+    },
+    {
+        "current": 26786598,
+        "labels": [
+            "Ghana",
+            "GHA"
+        ],
+        "trend": 1.0240225882864016
+    },
+    {
+        "current": 12275527,
+        "labels": [
+            "Guinea",
+            "GIN"
+        ],
+        "trend": 1.0274323594155836
+    },
+    {
+        "current": 1928201,
+        "labels": [
+            "Gambia, The",
+            "GMB"
+        ],
+        "trend": 1.0329614172801924
+    },
+    {
+        "current": 1800513,
+        "labels": [
+            "Guinea-Bissau",
+            "GNB"
+        ],
+        "trend": 1.0247411793858572
+    },
+    {
+        "current": 820885,
+        "labels": [
+            "Equatorial Guinea",
+            "GNQ"
+        ],
+        "trend": 1.0300225382347399
+    },
+    {
+        "current": 10869637,
+        "labels": [
+            "Greece",
+            "GRC"
+        ],
+        "trend": 0.9920294535838239
+    },
+    {
+        "current": 106349,
+        "labels": [
+            "Grenada",
+            "GRD"
+        ],
+        "trend": 1.0041298584684988
+    },
+    {
+        "current": 56295,
+        "labels": [
+            "Greenland",
+            "GRL"
+        ],
+        "trend": 0.9954577680137378
+    },
+    {
+        "current": 16015494,
+        "labels": [
+            "Guatemala",
+            "GTM"
+        ],
+        "trend": 1.02082376709946
+    },
+    {
+        "current": 167543,
+        "labels": [
+            "Guam",
+            "GUM"
+        ],
+        "trend": 1.014440589702899
+    },
+    {
+        "current": 763893,
+        "labels": [
+            "Guyana",
+            "GUY"
+        ],
+        "trend": 1.0036083006784433
+    },
+    {
+        "current": 7241700,
+        "labels": [
+            "Hong Kong SAR, China",
+            "HKG"
+        ],
+        "trend": 1.0060696548647936
+    },
+    {
+        "current": 7961680,
+        "labels": [
+            "Honduras",
+            "HND"
+        ],
+        "trend": 1.0144729109543742
+    },
+    {
+        "current": 4238389,
+        "labels": [
+            "Croatia",
+            "HRV"
+        ],
+        "trend": 0.9965768187302998
+    },
+    {
+        "current": 10572029,
+        "labels": [
+            "Haiti",
+            "HTI"
+        ],
+        "trend": 1.0136691413272596
+    },
+    {
+        "current": 9863183,
+        "labels": [
+            "Hungary",
+            "HUN"
+        ],
+        "trend": 0.9971139437266605
+    },
+    {
+        "current": 254454778,
+        "labels": [
+            "Indonesia",
+            "IDN"
+        ],
+        "trend": 1.0128527919351402
+    },
+    {
+        "current": 87127,
+        "labels": [
+            "Isle of Man",
+            "IMN"
+        ],
+        "trend": 1.0078267809313688
+    },
+    {
+        "current": 1295291543,
+        "labels": [
+            "India",
+            "IND"
+        ],
+        "trend": 1.0124666812894625
+    },
+    {
+        "current": 4615693,
+        "labels": [
+            "Ireland",
+            "IRL"
+        ],
+        "trend": 1.0031342404345422
+    },
+    {
+        "current": 78143644,
+        "labels": [
+            "Iran, Islamic Rep.",
+            "IRN"
+        ],
+        "trend": 1.012959285206634
+    },
+    {
+        "current": 34812326,
+        "labels": [
+            "Iraq",
+            "IRQ"
+        ],
+        "trend": 1.0305180133768148
+    },
+    {
+        "current": 327386,
+        "labels": [
+            "Iceland",
+            "ISL"
+        ],
+        "trend": 1.0103454482052898
+    },
+    {
+        "current": 8215700,
+        "labels": [
+            "Israel",
+            "ISR"
+        ],
+        "trend": 1.0191082897807426
+    },
+    {
+        "current": 60789140,
+        "labels": [
+            "Italy",
+            "ITA"
+        ],
+        "trend": 1.0104386126987022
+    },
+    {
+        "current": 2720554,
+        "labels": [
+            "Jamaica",
+            "JAM"
+        ],
+        "trend": 1.0023513731353333
+    },
+    {
+        "current": 6607000,
+        "labels": [
+            "Jordan",
+            "JOR"
+        ],
+        "trend": 1.0226154424382838
+    },
+    {
+        "current": 127131800,
+        "labels": [
+            "Japan",
+            "JPN"
+        ],
+        "trend": 0.9983143385147153
+    },
+    {
+        "current": 17289224,
+        "labels": [
+            "Kazakhstan",
+            "KAZ"
+        ],
+        "trend": 1.0147147686561855
+    },
+    {
+        "current": 44863583,
+        "labels": [
+            "Kenya",
+            "KEN"
+        ],
+        "trend": 1.0269115461547575
+    },
+    {
+        "current": 5835500,
+        "labels": [
+            "Kyrgyz Republic",
+            "KGZ"
+        ],
+        "trend": 1.0201546551933554
+    },
+    {
+        "current": 15328136,
+        "labels": [
+            "Cambodia",
+            "KHM"
+        ],
+        "trend": 1.0165788759195655
+    },
+    {
+        "current": 110470,
+        "labels": [
+            "Kiribati",
+            "KIR"
+        ],
+        "trend": 1.0178946756140879
+    },
+    {
+        "current": 54944,
+        "labels": [
+            "St. Kitts and Nevis",
+            "KNA"
+        ],
+        "trend": 1.0119878028605624
+    },
+    {
+        "current": 50423955,
+        "labels": [
+            "Korea, Rep.",
+            "KOR"
+        ],
+        "trend": 1.0041860130495748
+    },
+    {
+        "current": 1823149,
+        "labels": [
+            "Kosovo",
+            "KSV"
+        ],
+        "trend": 1.0049615692544593
+    },
+    {
+        "current": 3753121,
+        "labels": [
+            "Kuwait",
+            "KWT"
+        ],
+        "trend": 1.0476397248787803
+    },
+    {
+        "current": 6689300,
+        "labels": [
+            "Lao PDR",
+            "LAO"
+        ],
+        "trend": 1.0165666464084104
+    },
+    {
+        "current": 4546774,
+        "labels": [
+            "Lebanon",
+            "LBN"
+        ],
+        "trend": 1.0118697143024478
+    },
+    {
+        "current": 4396554,
+        "labels": [
+            "Liberia",
+            "LBR"
+        ],
+        "trend": 1.0243330630749923
+    },
+    {
+        "current": 6258984,
+        "labels": [
+            "Libya",
+            "LBY"
+        ],
+        "trend": 0.9980553161645792
+    },
+    {
+        "current": 183645,
+        "labels": [
+            "St. Lucia",
+            "LCA"
+        ],
+        "trend": 1.0075863765213111
+    },
+    {
+        "current": 37286,
+        "labels": [
+            "Liechtenstein",
+            "LIE"
+        ],
+        "trend": 1.0067047141189156
+    },
+    {
+        "current": 20771000,
+        "labels": [
+            "Sri Lanka",
+            "LKA"
+        ],
+        "trend": 1.0084595051310012
+    },
+    {
+        "current": 2109197,
+        "labels": [
+            "Lesotho",
+            "LSO"
+        ],
+        "trend": 1.0125267075995472
+    },
+    {
+        "current": 2932367,
+        "labels": [
+            "Lithuania",
+            "LTU"
+        ],
+        "trend": 0.9906847739807121
+    },
+    {
+        "current": 556319,
+        "labels": [
+            "Luxembourg",
+            "LUX"
+        ],
+        "trend": 1.0236153292492602
+    },
+    {
+        "current": 1993782,
+        "labels": [
+            "Latvia",
+            "LVA"
+        ],
+        "trend": 0.9899867875673201
+    },
+    {
+        "current": 577914,
+        "labels": [
+            "Macao SAR, China",
+            "MAC"
+        ],
+        "trend": 1.01790399871637
+    },
+    {
+        "current": 31530,
+        "labels": [
+            "St. Martin (French part)",
+            "MAF"
+        ],
+        "trend": 1.0091799638644474
+    },
+    {
+        "current": 33921203,
+        "labels": [
+            "Morocco",
+            "MAR"
+        ],
+        "trend": 1.0141045080022666
+    },
+    {
+        "current": 37623,
+        "labels": [
+            "Monaco",
+            "MCO"
+        ],
+        "trend": 1.0029232983243044
+    },
+    {
+        "current": 3556397,
+        "labels": [
+            "Moldova",
+            "MDA"
+        ],
+        "trend": 0.9995613760078303
+    },
+    {
+        "current": 23571713,
+        "labels": [
+            "Madagascar",
+            "MDG"
+        ],
+        "trend": 1.0282632191549737
+    },
+    {
+        "current": 401000,
+        "labels": [
+            "Maldives",
+            "MDV"
+        ],
+        "trend": 1.0205677274379563
+    },
+    {
+        "current": 125385833,
+        "labels": [
+            "Mexico",
+            "MEX"
+        ],
+        "trend": 1.0134867069925526
+    },
+    {
+        "current": 52898,
+        "labels": [
+            "Marshall Islands",
+            "MHL"
+        ],
+        "trend": 1.0022286901782116
+    },
+    {
+        "current": 2075625,
+        "labels": [
+            "Macedonia, FYR",
+            "MKD"
+        ],
+        "trend": 1.0015343896267712
+    },
+    {
+        "current": 17086022,
+        "labels": [
+            "Mali",
+            "MLI"
+        ],
+        "trend": 1.02977244369207
+    },
+    {
+        "current": 427364,
+        "labels": [
+            "Malta",
+            "MLT"
+        ],
+        "trend": 1.0093836838296295
+    },
+    {
+        "current": 53437159,
+        "labels": [
+            "Myanmar",
+            "MMR"
+        ],
+        "trend": 1.0084648689814109
+    },
+    {
+        "current": 621810,
+        "labels": [
+            "Montenegro",
+            "MNE"
+        ],
+        "trend": 1.0009735818676548
+    },
+    {
+        "current": 2909871,
+        "labels": [
+            "Mongolia",
+            "MNG"
+        ],
+        "trend": 1.0179163959706705
+    },
+    {
+        "current": 54541,
+        "labels": [
+            "Northern Mariana Islands",
+            "MNP"
+        ],
+        "trend": 1.0114423653967646
+    },
+    {
+        "current": 27216276,
+        "labels": [
+            "Mozambique",
+            "MOZ"
+        ],
+        "trend": 1.0284181923085742
+    },
+    {
+        "current": 3969625,
+        "labels": [
+            "Mauritania",
+            "MRT"
+        ],
+        "trend": 1.025173569319154
+    },
+    {
+        "current": 1260934,
+        "labels": [
+            "Mauritius",
+            "MUS"
+        ],
+        "trend": 1.002009336164472
+    },
+    {
+        "current": 16695253,
+        "labels": [
+            "Malawi",
+            "MWI"
+        ],
+        "trend": 1.031194637561343
+    },
+    {
+        "current": 29901997,
+        "labels": [
+            "Malaysia",
+            "MYS"
+        ],
+        "trend": 1.0150487203389544
+    },
+    {
+        "current": 2402858,
+        "labels": [
+            "Namibia",
+            "NAM"
+        ],
+        "trend": 1.023977425492336
+    },
+    {
+        "current": 266000,
+        "labels": [
+            "New Caledonia",
+            "NCL"
+        ],
+        "trend": 1.0153855257707556
+    },
+    {
+        "current": 19113728,
+        "labels": [
+            "Niger",
+            "NER"
+        ],
+        "trend": 1.041058994025638
+    },
+    {
+        "current": 177475986,
+        "labels": [
+            "Nigeria",
+            "NGA"
+        ],
+        "trend": 1.027080897081869
+    },
+    {
+        "current": 6013913,
+        "labels": [
+            "Nicaragua",
+            "NIC"
+        ],
+        "trend": 1.0115782218961944
+    },
+    {
+        "current": 16865008,
+        "labels": [
+            "Netherlands",
+            "NLD"
+        ],
+        "trend": 1.0032786607441668
+    },
+    {
+        "current": 5136886,
+        "labels": [
+            "Norway",
+            "NOR"
+        ],
+        "trend": 1.0117189466431313
+    },
+    {
+        "current": 28174724,
+        "labels": [
+            "Nepal",
+            "NPL"
+        ],
+        "trend": 1.0121838925109914
+    },
+    {
+        "current": 4509700,
+        "labels": [
+            "New Zealand",
+            "NZL"
+        ],
+        "trend": 1.0114655505846823
+    },
+    {
+        "current": 4236057,
+        "labels": [
+            "Oman",
+            "OMN"
+        ],
+        "trend": 1.0931389938999057
+    },
+    {
+        "current": 185044286,
+        "labels": [
+            "Pakistan",
+            "PAK"
+        ],
+        "trend": 1.021340414684671
+    },
+    {
+        "current": 3867535,
+        "labels": [
+            "Panama",
+            "PAN"
+        ],
+        "trend": 1.0163962937892124
+    },
+    {
+        "current": 30973148,
+        "labels": [
+            "Peru",
+            "PER"
+        ],
+        "trend": 1.0134116132300024
+    },
+    {
+        "current": 99138690,
+        "labels": [
+            "Philippines",
+            "PHL"
+        ],
+        "trend": 1.016124199285218
+    },
+    {
+        "current": 21097,
+        "labels": [
+            "Palau",
+            "PLW"
+        ],
+        "trend": 1.0081810809215561
+    },
+    {
+        "current": 7463577,
+        "labels": [
+            "Papua New Guinea",
+            "PNG"
+        ],
+        "trend": 1.0213454106626663
+    },
+    {
+        "current": 38011735,
+        "labels": [
+            "Poland",
+            "POL"
+        ],
+        "trend": 0.999324199845154
+    },
+    {
+        "current": 3548397,
+        "labels": [
+            "Puerto Rico",
+            "PRI"
+        ],
+        "trend": 0.9870278080716731
+    },
+    {
+        "current": 25026772,
+        "labels": [
+            "Korea, Dem. People\u2019s Rep.",
+            "PRK"
+        ],
+        "trend": 1.005304657530922
+    },
+    {
+        "current": 10401062,
+        "labels": [
+            "Portugal",
+            "PRT"
+        ],
+        "trend": 0.9945747429218788
+    },
+    {
+        "current": 6552518,
+        "labels": [
+            "Paraguay",
+            "PRY"
+        ],
+        "trend": 1.013496601075846
+    },
+    {
+        "current": 279781,
+        "labels": [
+            "French Polynesia",
+            "PYF"
+        ],
+        "trend": 1.0109093544072716
+    },
+    {
+        "current": 2172065,
+        "labels": [
+            "Qatar",
+            "QAT"
+        ],
+        "trend": 1.038091332351872
+    },
+    {
+        "current": 19904360,
+        "labels": [
+            "Romania",
+            "ROU"
+        ],
+        "trend": 0.9961618840198455
+    },
+    {
+        "current": 143819569,
+        "labels": [
+            "Russian Federation",
+            "RUS"
+        ],
+        "trend": 1.0021551004248856
+    },
+    {
+        "current": 11341544,
+        "labels": [
+            "Rwanda",
+            "RWA"
+        ],
+        "trend": 1.0239427033325468
+    },
+    {
+        "current": 30886545,
+        "labels": [
+            "Saudi Arabia",
+            "SAU"
+        ],
+        "trend": 1.0232996652049096
+    },
+    {
+        "current": 39350274,
+        "labels": [
+            "Sudan",
+            "SDN"
+        ],
+        "trend": 1.0214842806009137
+    },
+    {
+        "current": 14672557,
+        "labels": [
+            "Senegal",
+            "SEN"
+        ],
+        "trend": 1.0318738227910078
+    },
+    {
+        "current": 5469724,
+        "labels": [
+            "Singapore",
+            "SGP"
+        ],
+        "trend": 1.0146969823193945
+    },
+    {
+        "current": 572171,
+        "labels": [
+            "Solomon Islands",
+            "SLB"
+        ],
+        "trend": 1.0207342676538236
+    },
+    {
+        "current": 6315627,
+        "labels": [
+            "Sierra Leone",
+            "SLE"
+        ],
+        "trend": 1.0222951562534184
+    },
+    {
+        "current": 6107706,
+        "labels": [
+            "El Salvador",
+            "SLV"
+        ],
+        "trend": 1.0029166666235172
+    },
+    {
+        "current": 31595,
+        "labels": [
+            "San Marino",
+            "SMR"
+        ],
+        "trend": 1.0067621068511108
+    },
+    {
+        "current": 10517569,
+        "labels": [
+            "Somalia",
+            "SOM"
+        ],
+        "trend": 1.023831971788683
+    },
+    {
+        "current": 7129366,
+        "labels": [
+            "Serbia",
+            "SRB"
+        ],
+        "trend": 0.9951465597180481
+    },
+    {
+        "current": 11911184,
+        "labels": [
+            "South Sudan",
+            "SSD"
+        ],
+        "trend": 1.0415124751004656
+    },
+    {
+        "current": 186342,
+        "labels": [
+            "Sao Tome and Principe",
+            "STP"
+        ],
+        "trend": 1.0217760824509567
+    },
+    {
+        "current": 538248,
+        "labels": [
+            "Suriname",
+            "SUR"
+        ],
+        "trend": 1.0091467860231669
+    },
+    {
+        "current": 5418649,
+        "labels": [
+            "Slovak Republic",
+            "SVK"
+        ],
+        "trend": 1.0010230414609333
+    },
+    {
+        "current": 2061980,
+        "labels": [
+            "Slovenia",
+            "SVN"
+        ],
+        "trend": 1.0011710934097766
+    },
+    {
+        "current": 9696110,
+        "labels": [
+            "Sweden",
+            "SWE"
+        ],
+        "trend": 1.0092405368103425
+    },
+    {
+        "current": 1269112,
+        "labels": [
+            "Swaziland",
+            "SWZ"
+        ],
+        "trend": 1.015076052764941
+    },
+    {
+        "current": 37685,
+        "labels": [
+            "Sint Maarten (Dutch part)",
+            "SXM"
+        ],
+        "trend": 1.0431159922309434
+    },
+    {
+        "current": 91400,
+        "labels": [
+            "Seychelles",
+            "SYC"
+        ],
+        "trend": 1.0173853307722422
+    },
+    {
+        "current": 22157800,
+        "labels": [
+            "Syrian Arab Republic",
+            "SYR"
+        ],
+        "trend": 1.0169065938481907
+    },
+    {
+        "current": 33740,
+        "labels": [
+            "Turks and Caicos Islands",
+            "TCA"
+        ],
+        "trend": 1.0199976793388847
+    },
+    {
+        "current": 13587053,
+        "labels": [
+            "Chad",
+            "TCD"
+        ],
+        "trend": 1.0337047578251737
+    },
+    {
+        "current": 7115163,
+        "labels": [
+            "Togo",
+            "TGO"
+        ],
+        "trend": 1.0270290997421285
+    },
+    {
+        "current": 67725979,
+        "labels": [
+            "Thailand",
+            "THA"
+        ],
+        "trend": 1.0041739511477883
+    },
+    {
+        "current": 8295840,
+        "labels": [
+            "Tajikistan",
+            "TJK"
+        ],
+        "trend": 1.0227468574129288
+    },
+    {
+        "current": 5307188,
+        "labels": [
+            "Turkmenistan",
+            "TKM"
+        ],
+        "trend": 1.0128927793724172
+    },
+    {
+        "current": 1212107,
+        "labels": [
+            "Timor-Leste",
+            "TLS"
+        ],
+        "trend": 1.027113419017383
+    },
+    {
+        "current": 105586,
+        "labels": [
+            "Tonga",
+            "TON"
+        ],
+        "trend": 1.003891546829574
+    },
+    {
+        "current": 1354483,
+        "labels": [
+            "Trinidad and Tobago",
+            "TTO"
+        ],
+        "trend": 1.0047977630704543
+    },
+    {
+        "current": 10996600,
+        "labels": [
+            "Tunisia",
+            "TUN"
+        ],
+        "trend": 1.010113552989337
+    },
+    {
+        "current": 75932348,
+        "labels": [
+            "Turkey",
+            "TUR"
+        ],
+        "trend": 1.0122936065612853
+    },
+    {
+        "current": 9893,
+        "labels": [
+            "Tuvalu",
+            "TUV"
+        ],
+        "trend": 1.0016720313633476
+    },
+    {
+        "current": 51822621,
+        "labels": [
+            "Tanzania",
+            "TZA"
+        ],
+        "trend": 1.0321371738266143
+    },
+    {
+        "current": 37782971,
+        "labels": [
+            "Uganda",
+            "UGA"
+        ],
+        "trend": 1.0331006112550782
+    },
+    {
+        "current": 45362900,
+        "labels": [
+            "Ukraine",
+            "UKR"
+        ],
+        "trend": 0.9974701454968842
+    },
+    {
+        "current": 3419516,
+        "labels": [
+            "Uruguay",
+            "URY"
+        ],
+        "trend": 1.0033451059814666
+    },
+    {
+        "current": 318857056,
+        "labels": [
+            "United States",
+            "USA"
+        ],
+        "trend": 1.007524693426875
+    },
+    {
+        "current": 30757700,
+        "labels": [
+            "Uzbekistan",
+            "UZB"
+        ],
+        "trend": 1.0163768733990723
+    },
+    {
+        "current": 109360,
+        "labels": [
+            "St. Vincent and the Grenadines",
+            "VCT"
+        ],
+        "trend": 1.0001189113767321
+    },
+    {
+        "current": 30693827,
+        "labels": [
+            "Venezuela, RB",
+            "VEN"
+        ],
+        "trend": 1.0139639880513849
+    },
+    {
+        "current": 104170,
+        "labels": [
+            "Virgin Islands (U.S.)",
+            "VIR"
+        ],
+        "trend": 0.9947380076223853
+    },
+    {
+        "current": 90728900,
+        "labels": [
+            "Vietnam",
+            "VNM"
+        ],
+        "trend": 1.0107502195016207
+    },
+    {
+        "current": 258883,
+        "labels": [
+            "Vanuatu",
+            "VUT"
+        ],
+        "trend": 1.0227416075994384
+    },
+    {
+        "current": 4294682,
+        "labels": [
+            "West Bank and Gaza",
+            "PSE"
+        ],
+        "trend": 1.030158901764977
+    },
+    {
+        "current": 191845,
+        "labels": [
+            "Samoa",
+            "WSM"
+        ],
+        "trend": 1.0077623219362004
+    },
+    {
+        "current": 26183676,
+        "labels": [
+            "Yemen, Rep.",
+            "YEM"
+        ],
+        "trend": 1.0258072811033672
+    },
+    {
+        "current": 54001953,
+        "labels": [
+            "South Africa",
+            "ZAF"
+        ],
+        "trend": 1.0157360038955785
+    },
+    {
+        "current": 74877030,
+        "labels": [
+            "Congo, Dem. Rep.",
+            "COD"
+        ],
+        "trend": 1.0321051632819074
+    },
+    {
+        "current": 15721343,
+        "labels": [
+            "Zambia",
+            "ZMB"
+        ],
+        "trend": 1.0311241026268172
+    },
+    {
+        "current": 15245855,
+        "labels": [
+            "Zimbabwe",
+            "ZWE"
+        ],
+        "trend": 1.0230891416897112
+    }
+]
