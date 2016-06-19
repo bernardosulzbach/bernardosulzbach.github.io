@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-    <meta charset='UTF-8'>
-    <script src='d3.v3.min.js'></script>
-    <script src='humanize.min.js'></script>
-    <title>Population Trends</title>
-</head>
-<body>
+---
+layout: page
+title: "Population Trends"
+---
+
+<script src='d3.v3.min.js'></script>
+<script src='humanize.min.js'></script>
 <div id='doughnut'></div>
 <script>
     (function (d3) {
@@ -56,17 +54,17 @@
         // Should only be called after the data array has been initialized
         function draw() {
             var padding = 10;
-            var window_width = window.innerWidth;
-            var window_height = window.innerHeight;
-            var svg_width = window_width - padding;
-            var svg_height = window_height - padding;
+            var div_width = document.getElementById('doughnut').offsetWidth;
+            var div_height = div_width; // Make it a square
+            var svg_width = div_width - padding;
+            var svg_height = div_height - padding;
             var outer_radius = Math.min(svg_width, svg_height) * 0.4;
             var inner_radius = 0.5 * outer_radius;
             // Remove the old SVG, if it exists
             d3.select('svg').remove();
             var svg = d3.select('#doughnut')
                     .append('svg').attr('width', svg_width).attr('height', svg_height)
-                    .append('g').attr('transform', 'translate(' + window_width / 2 + ',' + window_height / 2 + ')');
+                    .append('g').attr('transform', 'translate(' + div_width / 2 + ',' + div_height / 2 + ')');
 
             var pie = d3.layout.pie().value(function (d) {
                 return d.current;
@@ -169,5 +167,3 @@
         }, 1000); // Increase year count after 1 second
     })(window.d3);
 </script>
-</body>
-</html>
