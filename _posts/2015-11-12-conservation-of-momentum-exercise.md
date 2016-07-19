@@ -17,7 +17,7 @@ cars sitting on flat ground at the bottom of the track?
 
 # Illustration
 
-![Illustration]({{ site.baseurl }}/assets/physics_problem_illustration.png)
+![Illustration]({{ site.baseurl }}/assets/physics-problem-illustration.png)
 
 # My Solution
 
