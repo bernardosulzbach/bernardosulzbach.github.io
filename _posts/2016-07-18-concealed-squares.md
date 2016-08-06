@@ -31,7 +31,7 @@ divide all numbers in P by 10 and find the one whose square is of the form
 them will not be specially expensive.
 
 P has 37,892,561 elements, but we do not need to check all of them. If
-x<sup>2</sup> ends in 9, x ends in 3 or 7, which reduces by by 80% the number of
+x<sup>2</sup> ends in 9, x ends in 3 or 7, which reduces by 80% the number of
 values we have to test.
 
 Using Clang with the O3 flag, [my C++ implementation]({{ site.baseurl
