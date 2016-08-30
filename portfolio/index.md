@@ -14,6 +14,10 @@ This is a non-exhaustive list of projects I am involved with.
   + See [the website](http://www.guesssong.com/),
     [the issue tracker](https://bitbucket.org/mafagafogigante/guesssong/issues)
 
++ **Walls of Doom** - A platformer in C
+  + See [the GitHub repository](https://github.com/walls-of-doom/walls-of-doom),
+    [the website](https://walls-of-doom.github.io/)
+
 + **Contagium** - A JavaScript game
   + See [the GitHub repository](https://github.com/contagium/contagium/),
     [the website](http://contagium.github.io/)
