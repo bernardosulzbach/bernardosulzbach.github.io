@@ -138,26 +138,7 @@ Too big to be here. Got [its own page]({{ site.baseurl }}/algorithms/andrew-mono
 
 # Fisher–Yates shuffling algorithm
 
-This is a simple implementation of one of the best shuffling algorithms out
-there. The Fisher-Yates shuffling algorithm is **unbiased** (every permutation
-is equally likely), runs in **linear time**, and requires **constant space**.
-
-The algorithm logic is quite simple: start from one of the ends of the array and
-pick one random element from the unsorted part of the array (including the
-current element) and swap it with the current element until the opposite end is
-reached. This is my implementation of the abovementioned algorithm in Java.
-
-```java
-public static void shuffle(List<?> list) {
-    for (int i = list.size() - 1; i > 0; i--) {
-        int index = (int) (Math.random() * (i + 1));
-        Collections.swap(list, i, index);
-    }
-}
-```
-
-Note, however, that you can use Collections.shuffle(List). This is usually a
-Fisher-Yates implementation.
+This is a must-known shuffling algorithm. [It has its own page]({{ site.baseurl }}/algorithms/fisher-yates/).
 
 # String matching
 

@@ -10,7 +10,7 @@ def reverse(elements, i, j):
 def next_permutation(elements):
     last_index = len(elements) - 1
     if last_index < 1:
-        return elements
+        return
 
     i = last_index - 1
     while i >= 0 and not elements[i] < elements[i + 1]:
