@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Heap’s algorithm
+title: Heap’s Algorithm
 ---
 
 In this post, I describe an alternative to the [Narayana Pandita's algorithm]({{
