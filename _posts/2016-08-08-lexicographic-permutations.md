@@ -22,10 +22,13 @@ century India.
 
 The algorithm is quite straightforward and may be memorized:
 
-    Find the biggest i such that a[i] > a[i + 1];
-    Find the biggest j such that a[j] > a[i];
+    Find the biggest i such that a[i] < a[i + 1];
+    Find the biggest j greater than i such that a[j] > a[i];
     Swap a[i] and a[j];
     Reverse the elements from a[i + 1] to the last element.
+
+If the first step fails (because such index does not exist) the current
+permutation is the last one.
 
 Given any permutation of a list, this generates the next one. It should be
 noted, however, that when given the greatest lexicographic permutation, this
