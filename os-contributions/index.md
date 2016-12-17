@@ -13,5 +13,6 @@ This is a list of some of my contributions to open-source projects.
 + Configured Travis CI for [fast-serialization](https://github.com/RuedigerMoeller/fast-serialization).
 + Fixed typos and reworded pages in the [Travis CI documentation](https://github.com/travis-ci/docs-travis-ci-com).
 + Fixed typos in the installation instructions of [Racket](https://github.com/racket/racket).
++ Fixed a cross-platform Lua [bug](https://github.com/minetest/minetest/issues/4720) in [Minetest](https://github.com/minetest/minetest).
 
 See also my [portfolio]({{ site.baseurl }}/portfolio).
