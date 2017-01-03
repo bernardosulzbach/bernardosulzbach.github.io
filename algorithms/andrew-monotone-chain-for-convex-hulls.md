@@ -9,10 +9,11 @@ containing that object. In a bidimensional polygon, one can imagine the convex
 hull as the format a rubber band  would take if it was released and let snap
 around the points.
 
-The naive approach has O(n³) time complexity because there are O(n²) pairs of
-points and O(n) comparisons per pair to ensure that all other points lie either
-to the right or to the left of the segment formed by a given pair. As it is
-often too slow in practice, I won't waste more characters about it here.
+The naive approach has O(n<sup>3</sup>) time complexity because there are
+O(n<sup>2</sup>) pairs of points and O(n) comparisons per pair to ensure that
+all other points lie either to the right or to the left of the segment formed by
+a given pair. As it is often too slow in practice, I won't waste more characters
+about it here.
 
 The O(n lg n) time of this algorithm arises from the need to sort the points. If
 your input is already sorted, it becomes a O(n) algorithm.

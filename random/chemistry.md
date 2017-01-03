@@ -57,7 +57,7 @@ there are atoms in 12 grams of pure carbon-12. One mole of substance is
 Avogadro's number.
 
 The number of molecules in a mole is known as Avogadro's constant. It is
-approximately equal to 6.023 x 10²³.
+approximately equal to 6.023 x 10<sup>23</sup>.
 
 One mole of gas has a volume of 22.4 liters at Standard Temperature and
 Pressure.

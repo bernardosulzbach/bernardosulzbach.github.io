@@ -27,8 +27,8 @@ to 1.8e+308.
 
 Some numbers may be represented exactly. For instance, the number 0.625 (5/8)
 would be represented as the pair (101, -11); because 5 is 101 in binary and -11
-is the binary representation of -3, the pair (101, -11) stands for 5 · 2⁻³ = 5 /
-8 = 0.625.
+is the binary representation of -3, the pair (101, -11) stands for 5 ·
+2<sup>-3</sup> = 5 / 8 = 0.625.
 
 # Example of an approximation
 
