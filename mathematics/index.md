@@ -34,7 +34,7 @@ the set S itself. It has 2<sup>|S|</sup> elements.
 
 ## Proofs
 
-### If n² is divisible by a prime p, then n is divisible by p
+### If n<sup>2</sup> is divisible by a prime p, then n is divisible by p
 
 #### Proof for a specific prime
 
@@ -42,33 +42,35 @@ Before proving the generalized version for all primes, I am going to prove that
 this is valid for a small prime. In this case, I've chosen 3. The easiest way I
 could find involved proving the contrapositive.
 
-Let us prove that if n is **not** divisible by 3, n² is also **not** divisible
-by 3.
+Let us prove that if n is **not** divisible by 3, n<sup>2</sup> is also **not**
+divisible by 3.
 
 If n is not divisible by 3, n may be written as either n = 3k + 1 or n = 3k + 2.
 
-For the first case, n² = 9k² + 6k + 1 = 3(3k² + 2k) + 1, which is not divisible
-by 3.
+For the first case, n<sup>2</sup> = 9k<sup>2</sup> + 6k + 1 = 3(3k<sup>2</sup> +
+2k) + 1, which is not divisible by 3.
 
-For the second case, n² = 9k² + 12k + 4 = 3(3k² + 4k + 1) + 1, which is also not
-divisible by 3. 
+For the second case, n<sup>2</sup> = 9k<sup>2</sup> + 12k + 4 = 3(3k<sup>2</sup>
++ 4k + 1) + 1, which is also not divisible by 3.
 
-This concludes the proof that if n is **not** divisible by 3, n² is also **not**
-divisible by 3, which also proves that if n² (n ∈ ℕ) is divisible by 3, n is
-divisible by 3.
+This concludes the proof that if n is **not** divisible by 3, n<sup>2</sup> is
+also **not** divisible by 3, which also proves that if n<sup>2</sup> (n ∈ ℕ) is
+divisible by 3, n is divisible by 3.
 
 #### Generalization for all primes
 
-If n² (n ∈ ℕ) is divisible by a prime p, n is divisible by p.
+If n<sup>2</sup> (n ∈ ℕ) is divisible by a prime p, n is divisible by p.
 
-Again, I will prove the contrapositive. If n is **not** divisible by p, n² is
-also **not** divisible by p.
+Again, I will prove the contrapositive. If n is **not** divisible by p,
+n<sup>2</sup> is also **not** divisible by p.
 
-If n = pk + q, for a positive q, q < p, then n² = p²k² + 2pkq + q²
-Therefore n² = p(pk² + 2kq) + q². As p is a prime, p ∤ q² and therefore n² is
-not divisible by p.
+If n = pk + q, for a positive q, q < p, then n<sup>2</sup> =
+p<sup>2</sup>k<sup>2</sup> + 2pkq + q<sup>2</sup> Therefore n<sup>2</sup> =
+p(pk<sup>2</sup> + 2kq) + q<sup>2</sup>. As p is a prime, p ∤ q<sup>2</sup> and
+therefore n<sup>2</sup> is not divisible by p.
 
-This proves that  if n² (n ∈ ℕ) is divisible by a prime p, n is divisible by p.
+This proves that if n<sup>2</sup> (n ∈ ℕ) is divisible by a prime p, n is
+divisible by p.
 
 ### The square root of any prime number is irrational
 
@@ -83,10 +85,12 @@ Suppose that the square root of p is a rational number. Therefore there exist
 two [mutually prime numbers](https://en.wikipedia.org/wiki/Coprime_integers) a
 and b such that the square root of p equals the ratio between a and b.
 
-Therefore, p = a² / b². Then b² p = a², which implies that p divides a², and,
-because p is a prime, p divides a. Therefore, b² p = (k² p²), which can be
-simplified to b² = k² p. This implies that p divides b², and p divides b, which
-is absurd as a and b are mutually prime in our proof.
+Therefore, p = a<sup>2</sup> / b<sup>2</sup>. Then b<sup>2</sup> p =
+a<sup>2</sup>, which implies that p divides a<sup>2</sup>, and, because p is a
+prime, p divides a. Therefore, b<sup>2</sup> p = (k<sup>2</sup> p<sup>2</sup>),
+which can be simplified to b<sup>2</sup> = k<sup>2</sup> p. This implies that p
+divides b<sup>2</sup>, and p divides b, which is absurd as a and b are mutually
+prime in our proof.
 
 By reduction to the impossible, this proves that the square root of any prime
 number p is an irrational number.

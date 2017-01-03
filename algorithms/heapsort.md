@@ -30,7 +30,8 @@ Removing an item from an unsorted array – given its index – takes constant t
 (because you can write the last element over the element you wish to remove and
 reduce the length by one in constant time), whilst finding the minimum of an
 unsorted array takes `O(n)` time (through linear search). This makes selection
-sort a `O(n²)` average-case algorithm, as it finds the minimum **n** times.
+sort a `O(n<sup>2</sup>)` average-case algorithm, as it finds the minimum **n**
+times.
 
 Some data structures provide these operations with better time complexities.
 **Heaps** and **balanced binary trees** (these are not _abstract_ data
