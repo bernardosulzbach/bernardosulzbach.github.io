@@ -132,7 +132,62 @@ When the rabbit and the turtle meet, the turtle is at mu.
             return -1, -1
 ```
 
-# Andrew's monotone chain for convex hulls
+# Longest common subsequence (LCS)
+
+## Description
+
+The longest common subsequence problem is the problem of finding the longest
+subsequence common to all sequences of a set of sequences. A subsequence is any
+ordered subset of a sequence. Therefore, AC is a subsequence of ABC.
+
+This is a classic problem of computer science and is solved to generate useful
+difference lists between files by version control systems.
+
+Here I will present the intuition behind the solution of the algorithm for the
+case where the sequence set has only two sequences.
+
+## Complexity
+
+For an arbitrary number of sequences the problem is NP-hard and for two
+sequences the dynamic programming solution has both time and space complexity of
+O(n × m).
+
+## The algorithm
+
+The dynamic programming solution can be understood by a recursive definition:
+
+    LCS(X[:i], Y[:j]) =
+        0                                                   if i == 0 or j == 0
+        LCS(X[:i - 1], Y[:j - 1]) + 1                       if X[i] == Y[j]
+        max(LCS(X[:i], Y[:j - 1]), LCS(X[:i - 1], Y[:j]))   otherwise
+
+If X<sub>i</sub> = Y<sub>j</sub>, the LCS is the LCS of the prefixes (up to, but
+not including, the last elements) plus one (to account for the new common
+element).
+
+Otherwise, do not account for the last element into the LCS and take the longest
+of the two possible candidates.
+
+## Implementation
+
+The simplest way to implement the dynamic programming solution based on the
+abovementioned recursive solution uses a matrix where each element corresponds
+to the longest common subsequence up to that point.
+
+# Longest common substring
+
+The longest common substring problem is quite similar to the longest common
+subsequence problem. It differs because the definition of a substring is
+different to that of a subsequence as it does not include non-contiguous
+subsequences. Therefore, AC is a subsequence of ABC, but not a substring. AB,
+for instance, is both a substring and a subsequence of ABC.
+
+The recursive solution is similar to that of the LCS problem. The only change is
+that instead of taking the maximum of the two possible candidates when there is
+a mismatch, one should use zero. This is because there can be no mismatches in
+the middle of a substring.
+
+# Monotone chain for convex hulls
 
 Too big to be here. Got [its own page]({{ site.baseurl }}/algorithms/andrew-monotone-chain-for-convex-hulls/).
 
