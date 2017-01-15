@@ -22,7 +22,7 @@ the game. You can preview this wiki
 
 Screenshots
 -----------
-[See the gallery](https://mafagafogigante.org/dungeon/screenshots/).
+[See the gallery](http://mafagafogigante.org/dungeon/screenshots/).
 
 Running the game
 ----------------
