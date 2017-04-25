@@ -56,7 +56,7 @@ class SlidingWindow {
 This solution is amortized O(1) for all operations, making it O(N) for N
 elements. By using STL trees we cannot do better than O(N log N).
 
-# Example
+# Sliding Maximum Example
 
 Using 20 terms and a window of width 4, we have the following table:
 
