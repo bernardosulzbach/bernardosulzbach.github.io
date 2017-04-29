@@ -38,9 +38,9 @@ algorithm has Θ(n<sup>2</sup>) time-complexity even for sorted input.
 # Heapsort
 
 Heapsort is great: it is simple to program and has worst-case `O(n log n)` (the
-best that can be expected from a sorting algorithm). It is also an example of
-how a data structure can make dramatic algorithmic improvements. **Heapsort can
-be thought as a variation of selection sort that uses a [priority
+best that can be expected from a comparison-based sorting algorithm). It is also
+an example of how a data structure can make dramatic algorithmic improvements.
+**Heapsort can be thought as a variation of selection sort that uses a [priority
 queue](https://en.wikipedia.org/wiki/Priority_queue "Wikipedia article") to
 speed up the process**.
 
@@ -70,9 +70,9 @@ Heaps are slick data structures that enable us to represent binary trees
 without using pointers. Specifically, a heap is usually represented as an array
 where the positions of the keys implicitly take the roles of pointers. If we
 are using a zero-indexed array, the n-th level of the tree starts in the
-**2<sup>n-1</sup> – 1** element and ends at the **2<sup>n</sup> – 2** element.
-The root is stored in the first position of the array and its left and right
-children in the second and third. This way, the first child of the node at `k`
+2<sup>n-1</sup> - 1 element and ends at the 2<sup>n</sup> - 2 element. The root
+is stored in the first position of the array and its left and right children in
+the second and third.
 
 ## Size
 
