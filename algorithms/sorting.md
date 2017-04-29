@@ -37,7 +37,7 @@ algorithm has Θ(n<sup>2</sup>) time-complexity even for sorted input.
 
 # Heapsort
 
-Heapsort is great: it is simple to program and has worst-case `O(n log n)` (the
+Heapsort is great: it is simple to program and has worst-case O(n log n) (the
 best that can be expected from a comparison-based sorting algorithm). It is also
 an example of how a data structure can make dramatic algorithmic improvements.
 **Heapsort can be thought as a variation of selection sort that uses a [priority
@@ -49,14 +49,15 @@ speed up the process**.
 Removing an item from an unsorted array – given its index – takes constant time
 (because you can write the last element over the element you wish to remove and
 reduce the length by one in constant time), whilst finding the minimum of an
-unsorted array takes `O(n)` time (through linear search). This makes selection
-sort a `O(n<sup>2</sup>)` average-case algorithm, as it finds the minimum **n** times.
+unsorted array takes O(n) time (through linear search). This makes selection
+sort a O(n<sup>2</sup>) average-case algorithm, as it finds the minimum **n**
+times.
 
 Some data structures provide these operations with better time complexities.
 **Heaps** and **balanced binary trees** (these are not _abstract_ data
 structures, such as the aforementioned priority queue) provide both operations
-with `O(lg n)` time complexity, making the sorting algorithm (that operates on
-**n** elements) take `O(n lg n)` time.
+with O(lg n) time complexity, making the sorting algorithm (that operates on
+**n** elements) take O(n lg n) time.
 
 ## Heaps
 
@@ -117,8 +118,8 @@ to fix the dominance order, all we need to do is to call the bubble down
 procedure to all elements that are not leaves (trivially, all the leaves are
 dominant).
 This is faster because it can be proven with analysis that all bubble down
-calls are bounded by a constant. As the number of bubble down calls is `O(n)`,
-this solution is `O(n)`.
+calls are bounded by a constant. As the number of bubble down calls is O(n),
+this solution is O(n).
 
 ## Implementations
 
