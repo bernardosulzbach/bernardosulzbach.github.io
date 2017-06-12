@@ -47,11 +47,9 @@ divisible by 3.
 
 If n is not divisible by 3, n may be written as either n = 3k + 1 or n = 3k + 2.
 
-For the first case, n<sup>2</sup> = 9k<sup>2</sup> + 6k + 1 = 3(3k<sup>2</sup> +
-2k) + 1, which is not divisible by 3.
+For the first case, n<sup>2</sup> = 9k<sup>2</sup> + 6k + 1 = 3(3k<sup>2</sup> + 2k) + 1, which is not divisible by 3.
 
-For the second case, n<sup>2</sup> = 9k<sup>2</sup> + 12k + 4 = 3(3k<sup>2</sup>
-+ 4k + 1) + 1, which is also not divisible by 3.
+For the second case, n<sup>2</sup> = 9k<sup>2</sup> + 12k + 4 = 3(3k<sup>2</sup> + 4k + 1) + 1, which is also not divisible by 3.
 
 This concludes the proof that if n is **not** divisible by 3, n<sup>2</sup> is
 also **not** divisible by 3, which also proves that if n<sup>2</sup> (n ∈ ℕ) is
