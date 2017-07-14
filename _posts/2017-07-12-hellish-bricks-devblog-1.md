@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hellish Bricks Devblog 1
+title: Hellish Bricks DevBlog 1
 ---
 
 This is the first of what may end up being a series of posts regarding the
@@ -23,10 +23,12 @@ frameborder="0" allowfullscreen></iframe>
 
 # Playable Demo
 
-[Here is the compiled binary for Windows](https://goo.gl/WfTze5). You need at
-least Windows Vista to run the game. You may need to download and install the
-[Microsoft Visual C++ Redistributable for Visual Studio
-2017](https://goo.gl/csqCeA) before being able to execute the game.
+You need at least Windows Vista to run the game and you may also need to
+download and install the Microsoft Visual C++ Redistributable for Visual Studio
+2017 before being able to execute the game.
+
++ [Compiled binary for Windows](https://goo.gl/WfTze5).
++ [Visual C++ Redistributable](https://goo.gl/csqCeA).
 
 New versions of Wine are also able to run the abovementioned executable.
 
