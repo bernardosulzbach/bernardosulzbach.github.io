@@ -5,7 +5,7 @@ title: Hellish Bricks DevBlog 2
 
 This is an update on what I have recently done to Hellish Bricks.
 
-# Progression Curves 
+# Progression Curves
 
 The game got progression curves for running speed and initial jump speed.
 
