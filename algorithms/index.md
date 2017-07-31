@@ -193,7 +193,7 @@ Too big to be here. Got [its own page]({{ site.baseurl }}/algorithms/andrew-mono
 
 # Fisher–Yates shuffling algorithm
 
-This is a must-known shuffling algorithm. [It has its own page]({{ site.baseurl }}/algorithms/fisher-yates/).
+This is a must-know shuffling algorithm. [It has its own page]({{ site.baseurl }}/algorithms/fisher-yates/).
 
 # String matching
 
