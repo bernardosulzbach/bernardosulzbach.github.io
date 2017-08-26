@@ -71,3 +71,32 @@ are only six distinct permutations of the string 'abc'.
 
 This algorithm uses constant additional space (as it is in-place) and has linear
 time complexity in the worst case but is amortized to constant time.
+
+# Using the C++ standard library
+
+If you can use the C++ STL, you have access to std::next_permutation.
+
+## Example
+
+```cpp
+{% include code/cpp_lexicographic.cpp %}
+```
+
+```
+abbc
+abcb
+acbb
+babc
+bacb
+bbac
+bbca
+bcab
+bcba
+cabb
+cbab
+cbba
+```
+
+As per the documentation, the return value of the function is true if the new
+permutation is lexicographically greater than the old, or false if the last
+permutation was reached and the range was reset to the first permutation.
