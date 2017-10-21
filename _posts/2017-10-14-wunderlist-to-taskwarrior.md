@@ -19,7 +19,7 @@ Taskwarrior when I am at my computer.
 
 ## Relevant Features
 
-+ **Selective Syncrhonization.** Lists starting with "!" are never synchronized.
++ **Selective Synchronization.** Lists starting with "!" are never synchronized.
 + **Data Safety.** All communication is done via HTTPS.
 + **Persistence.** SQLite is used to keep track of what has been synchronized.
 
