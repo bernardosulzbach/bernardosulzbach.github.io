@@ -24,6 +24,27 @@ Screenshots
 -----------
 [See the gallery](http://mafagafogigante.org/dungeon/screenshots/).
 
+Awards
+------
+
+In 2017 this project won Yegor Bugayenko's Software Quality Award.
+
+![Software Quality Award]({{ site.baseurl
+}}/assets/dungeon/software-quality-award.png)
+
+Tools
+-----
+
+### YourKit
+
+![YourKit](https://www.yourkit.com/images/yklogo.png)
+
+YourKit supports open source projects with its full-featured Java Profiler.
+YourKit, LLC is the creator of [YourKit Java
+Profiler](https://www.yourkit.com/java/profiler/) and [YourKit .NET
+Profiler](https://www.yourkit.com/.net/profiler/), innovative and intelligent
+tools for profiling Java and .NET applications.
+
 Running the game
 ----------------
 [Download a release](https://github.com/mafagafogigante/dungeon/releases).
