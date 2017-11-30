@@ -3,10 +3,9 @@ layout: post
 title: "Concealed Squares"
 ---
 
-This is my solution to [Project Euler](https://projecteuler.net/) problem number
-206. Although a brute force solution can be easily derived, this approach makes
-use of mathematical analysis to find the answer in less time. The problem
-statement follows.
+This is my solution to Project Euler problem number 206. Although a brute force
+solution can be easily derived, this approach makes use of mathematical analysis
+to find the answer in less time. The problem statement follows.
 
 > Find the unique positive integer whose square has the form
 > `1_2_3_4_5_6_7_8_9_0`, where each "`_`" is a single digit.
@@ -23,12 +22,13 @@ possible solution set P.
     P = {1010101010, 1010101020, ..., 1389026620}
 
 The largest possible number is 19293949596979899990, which requires 65 bits to
-be represented as an unsigned integer. However, because we know that the answer
-is a multiple of 10, we also know that the square of the answer is a multiple of
-100. And, therefore, that it ends with 00. This allows for another optimization:
-divide all numbers in P by 10 and find the one whose square is of the form
-`1_2_3_4_5_6_7_8_9`. These numbers fit into 64-bit words, so arithmetic with
-them will not be specially expensive.
+be represented as an unsigned integer.
+
+However, because we know that the answer is a multiple of 10, we also know that
+the square of the answer is a multiple of 100. And, therefore, that it ends with
+zeros. This allows for another optimization: divide all numbers in P by 10 and
+find the one whose square is of the form `1_2_3_4_5_6_7_8_9`. These numbers fit
+into 64-bit words, so arithmetic with them will not be specially expensive.
 
 P has 37,892,561 elements, but we do not need to check all of them. If
 x<sup>2</sup> ends in 9, x ends in 3 or 7, which reduces by 80% the number of
