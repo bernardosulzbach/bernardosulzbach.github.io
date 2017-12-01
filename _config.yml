@@ -11,6 +11,7 @@ baseurl: ""
 # Markdown
 kramdown:
   input: GFM
+  auto_ids: false
   hard_wrap: false
 
 highlighter: rouge
