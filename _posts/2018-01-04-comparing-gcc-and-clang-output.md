@@ -65,7 +65,8 @@ case. Clang doesn't generate movaps, but uses two constants and only addss for
 them rather than only having one and using subss to subtract one from a
 register.
 
-Performance-wise, as one might expect, both versions are almost identical.
+Performance-wise, quite differently from what I expected, GCC version is **about
+30% faster**.
 
 ### C++ Benchmark Code
 
