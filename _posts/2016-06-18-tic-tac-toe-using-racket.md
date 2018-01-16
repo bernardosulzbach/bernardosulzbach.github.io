@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Solving Tic-tac-toe using Racket"
+title: "Solving Tic-Tac-Toe Using Racket"
 ---
 
 I decided to implement a perfect AI (using

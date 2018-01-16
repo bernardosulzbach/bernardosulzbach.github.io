@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Most Important Things First #2"
+title: "Most Important Things First 2"
 ---
 
 I wrote I would come back to write about the results of my new approach

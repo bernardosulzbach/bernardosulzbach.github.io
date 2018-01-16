@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Most Important Things First #1"
+title: "Most Important Things First 1"
 ---
 
 Ernest Hemingway woke each morning and began writing straight away. Some say.

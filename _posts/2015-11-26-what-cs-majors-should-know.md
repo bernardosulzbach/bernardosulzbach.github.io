@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What Computer Science Majors Should Know
+title: What CS Majors Should Know
 ---
 
 This post is a collection of highlights from [this fantastic
@@ -58,4 +58,3 @@ alive post, so you should definitely check it out from time to time. There is
 also some really nice stuff about which languages the author thinks provide a
 reasonable mixture of paradigms and practical applications that I did not quote
 because it is fairly long.
-

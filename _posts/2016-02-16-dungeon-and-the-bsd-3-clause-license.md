@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dungeon is Using the BSD 3-Clause License"
+title: "Dungeon and the BSD 3-Clause License"
 ---
 
 Last weekend I was determined to solve [Dungeon's licensing issues]({{ site.url

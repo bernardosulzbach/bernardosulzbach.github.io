@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Recovering Deleted Files from an ext3 or ext4 Partition"
+title: "Recovering Deleted Files"
 ---
+
+This post is specific to ext3 and ext4 partitions.
 
 Yesterday I accidentally invoked `bunzip2` without the `--keep` flag.  This
 made me lose the original, compressed file. It would be complicated to get it
