@@ -4,15 +4,4 @@ rvm:
 script:
   - bundle install
   - bundle exec jekyll build
-  - bundle exec htmlproof ./_site --only-4xx --check-favicon --check-html
-                                # --only-4xx tells HTML Proofer to only throw
-                                # an error when it hits an error message in the
-                                # 400-499 range. This means it ignores errors
-                                # like 500 or 503 on external urls which are
-                                # usually temporary issues and down to the
-                                # external service to resolve, we don't want
-                                # things which are out of our control to fail
-                                # our build.
-                                # --check-favicon is self-explanatory.
-                                # --check-html checks that your HTML is well
-                                # formed.
+  - bundle exec htmlproofer ./_site --check-favicon --check-html
