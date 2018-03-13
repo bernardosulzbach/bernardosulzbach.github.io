@@ -5,14 +5,17 @@ title: Finding the Maximum of Four Integers
 
 Inspired by an analysis of the source code of
 [Rogue](https://en.wikipedia.org/wiki/Rogue_(video_game)), I decided to find
-out how clever modern compilers are when it comes down to what the programmer
-expressed as a short macro: the selection of the maximum of four integers.
+out how modern compilers encode selecting the maximum of four integers.
 
 ```cpp
-#define MAX(a, b, c, d)                                 \
-  (a > b ? (a > c ? (a > d ? a : d) : (c > d ? c : d))  \
-         : (b > c ? (b > d ? b : d) : (c > d ? c : d)))
+int max(int a, int b, int c, int d) {
+  return a > b ? (a > c ? (a > d ? a : d) : (c > d ? c : d))
+               : (b > c ? (b > d ? b : d) : (c > d ? c : d));
+}
 ```
+
+It is important to note that this is isolated code generation and a modern
+compiler could probably do better if more context was available.
 
 Using Clang 5.0, I get the following (with optimizations enabled, of course).
 
