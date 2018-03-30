@@ -3,9 +3,9 @@ permalink: /:title/
 
 # Setup
 title: Bernardo Sulzbach's Website
-description: Discourses on computers, software, and mathematics
+description: Discourses on computers, software, and mathematics.
 repository: https://github.com/mafagafogigante/mafagafogigante.github.io/
-url: http://www.mafagafogigante.org
+url: http://www.bernardosulzbach.com
 baseurl: ""
 
 # Markdown
@@ -23,11 +23,11 @@ plugins:
   - jekyll-sitemap
 
 # Pagination
-paginate: 5
+paginate: 10
 paginate_path: "page/:num"
 
 # About/contact
 author:
   name: Bernardo Sulzbach
-  url: https://github.com/mafagafogigante
-  email: mafagafogigante@gmail.com
+  url: https://github.com/bernardosulzbach
+  email: bernardo@bernardosulzbach.com
