@@ -22,7 +22,7 @@ the game. You can preview this wiki
 
 Screenshots
 -----------
-[See the gallery](http://bernardosulzbach.org/dungeon/screenshots/).
+[See the gallery](http://www.bernardosulzbach.com/dungeon/screenshots/).
 
 Awards
 ------
