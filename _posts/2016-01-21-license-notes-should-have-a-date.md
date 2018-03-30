@@ -3,7 +3,7 @@ layout: post
 title: "License Notes Should Have a Date"
 ---
 
-When working on [dungeon](https://github.com/mafagafogigante/dungeon/) license
+When working on [dungeon](https://github.com/bernardosulzbach/dungeon/) license
 notes I came to notice that we are in 2016 and this means that all files that I
 change right now require their license notes to be updated.
 

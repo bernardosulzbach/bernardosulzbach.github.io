@@ -28,7 +28,7 @@ stronger encapsulation.
 
 To demonstrate this, I will use a code snippet from an open-world single-player
 role-playing-game I am currently developing called
-[Dungeon](https://github.com/mafagafogigante/dungeon).
+[Dungeon](https://github.com/bernardosulzbach/dungeon).
 
 ```java
 public abstract class Entity implements Selectable, Serializable {

@@ -33,4 +33,4 @@ Currently, I've been running it every minute on one of my computers.
 Wunderlist to Taskwarrior was written in Haskell using Stack so it should be
 easy enough to get a build for your own computer.
 
-[This is the GitHub repository](https://github.com/mafagafogigante/wunderlist-to-taskwarrior).
+[This is the GitHub repository](https://github.com/bernardosulzbach/wunderlist-to-taskwarrior).

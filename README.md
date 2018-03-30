@@ -4,7 +4,7 @@
 
 I use Travis CI to test the site and make sure that all links are valid.
 
-[![Build Status](https://travis-ci.org/mafagafogigante/mafagafogigante.github.io.svg?branch=master)](https://travis-ci.org/mafagafogigante/mafagafogigante.github.io)
+[![Build Status](https://travis-ci.org/bernardosulzbach/bernardosulzbach.github.io.svg?branch=master)](https://travis-ci.org/bernardosulzbach/bernardosulzbach.github.io)
 
 ## Made with
 

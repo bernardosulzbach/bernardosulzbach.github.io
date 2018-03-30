@@ -4,7 +4,7 @@ title: "Dungeon is Using Checkstyle"
 ---
 
 Dungeon has had a [style
-guide](https://github.com/mafagafogigante/dungeon/blob/master/STYLE.md) for some
+guide](https://github.com/bernardosulzbach/dungeon/blob/master/STYLE.md) for some
 time now. However, it was not enforced by anything other than human reading.
 Even if my IDEA settings were very compliant and I followed them scrupulously, I
 got nothing more than warnings.

@@ -123,4 +123,4 @@ this solution is O(n).
 
 ## Implementations
 
-[This is my implementation of a priority queue and heapsort using Python 3](https://github.com/mafagafogigante/algorithms-and-data-structures/blob/master/python/priority-queue/priority_queue.py).
+[This is my implementation of a priority queue and heapsort using Python 3](https://github.com/bernardosulzbach/algorithms-and-data-structures/blob/master/python/priority-queue/priority_queue.py).

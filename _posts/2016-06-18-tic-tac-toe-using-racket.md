@@ -9,7 +9,7 @@ Tic-tac-toe. I had not decided though whether I'd use JavaScript or Racket,
 two languages I've been using quite a bit recently and about which I am quite
 interested. As the post title gives off, I've decided to write a functional
 programming solution using Racket. It is open-source and available on GitHub.
-[See the repository](https://github.com/mafagafogigante/tic-tac-toe). There is
+[See the repository](https://github.com/bernardosulzbach/tic-tac-toe). There is
 also a fairly decent GUI-based game that allows you to play against the AI.
 
 ![GUI-based Tic-tac-toe game]({{ site.baseurl }}/assets/tic-tac-toe.png)
@@ -29,10 +29,10 @@ is likely not making too much of a difference.
 Being an automation enthusiast myself. This project also got its amount of
 continuous integration and delivery. Every push and pull request is built and
 tested by Travis CI. [Here you can find the build history of the
-project](https://travis-ci.org/mafagafogigante/tic-tac-toe). Travis also
+project](https://travis-ci.org/bernardosulzbach/tic-tac-toe). Travis also
 prepares and deploys a Linux-only standalone distribution to GitHub releases on
 tags. [See the releases
-page](https://github.com/mafagafogigante/tic-tac-toe/releases). In the future I
+page](https://github.com/bernardosulzbach/tic-tac-toe/releases). In the future I
 may make Windows and Mac OS X standalone distributions available. You should be
 able to play the standalone game on Linux even without having Racket installed.
 

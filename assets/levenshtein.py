@@ -1,8 +1,6 @@
-# A function to evaluate Levenshtein distance
+# A function to evaluate Levenshtein distance.
 #
-# by Bernardo Sulzbach (mafagafogigante@gmail.com) in 2016
-#
-# Licensed under the BSD 3-Clause license
+# Licensed under the BSD 3-Clause license.
 
 def levenshtein(a, b):
     """

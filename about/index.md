@@ -15,15 +15,15 @@ of your own, just e-mail me your suggestions or open a pull request on GitHub.
 
 # Contact information
 
-You can e-mail me at [mafagafogigante@gmail.com](mailto:
+You can e-mail me at [bernardosulzbach@gmail.com](mailto:
 {{ site.author.email }}?subject=Website Contact).
 
 # My public repositories
 
 All my public repositories are either on GitHub or Bitbucket.
 
-[This](https://github.com/mafagafogigante){:target="_blank"} is my GitHub
-profile. [This](https://bitbucket.org/mafagafogigante){:target="_blank"} is my
+[This](https://github.com/bernardosulzbach){:target="_blank"} is my GitHub
+profile. [This](https://bitbucket.org/bernardosulzbach){:target="_blank"} is my
 Bitbucket profile.
 
 # Acknowledgements

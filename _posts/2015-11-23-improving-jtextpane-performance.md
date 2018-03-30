@@ -29,4 +29,4 @@ optimization, I did not even code this multithreaded version. But I am
 mentioning it here just in case someone (maybe me) needs it in the future.
 
 For reference, [the issue related to the
-post](https://github.com/mafagafogigante/dungeon/issues/176).
+post](https://github.com/bernardosulzbach/dungeon/issues/176).

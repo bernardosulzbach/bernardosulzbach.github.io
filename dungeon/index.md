@@ -18,11 +18,11 @@ dealing with the aberrations roaming the land.
 The world is randomly generated, making each and every experience unique. There
 is also an in-game wiki with a lot of information about the different facets of
 the game. You can preview this wiki
-[here](https://github.com/mafagafogigante/dungeon/wiki).
+[here](https://github.com/bernardosulzbach/dungeon/wiki).
 
 Screenshots
 -----------
-[See the gallery](http://mafagafogigante.org/dungeon/screenshots/).
+[See the gallery](http://bernardosulzbach.org/dungeon/screenshots/).
 
 Awards
 ------
@@ -47,14 +47,14 @@ tools for profiling Java and .NET applications.
 
 Running the game
 ----------------
-[Download a release](https://github.com/mafagafogigante/dungeon/releases).
+[Download a release](https://github.com/bernardosulzbach/dungeon/releases).
 
 You only need an updated version of Java to play this game.
 
 Reporting bugs
 --------------
 Bug reports, questions, and suggestions are welcome on our [issue
-tracker](https://github.com/mafagafogigante/dungeon/issues).
+tracker](https://github.com/bernardosulzbach/dungeon/issues).
 
 Contributing
 ------------
@@ -62,14 +62,14 @@ If you know Java, Python, or even if you just know English well, you can
 contribute.
 
 Check out the [issue
-tracker](https://github.com/mafagafogigante/dungeon/issues) to see what could
+tracker](https://github.com/bernardosulzbach/dungeon/issues) to see what could
 be done or figure out something you would like to do and start working on it.
 
 Discussing your ideas on the tracker before coding is a good way to increase
 the chance of your changes being accepted.
 
 Do not forget to also read the project's contributing guide
-[here](https://github.com/mafagafogigante/dungeon/blob/master/CONTRIBUTING.md).
+[here](https://github.com/bernardosulzbach/dungeon/blob/master/CONTRIBUTING.md).
 
 Versioning scheme
 -----------------
@@ -84,4 +84,4 @@ Dungeon uses [semantic versioning](http://semver.org/spec/v2.0.0.html).
 
 License
 -------
-[BSD 3-Clause](https://github.com/mafagafogigante/dungeon/blob/master/LICENSE.txt).
+[BSD 3-Clause](https://github.com/bernardosulzbach/dungeon/blob/master/LICENSE.txt).
