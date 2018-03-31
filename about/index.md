@@ -15,7 +15,7 @@ of your own, just e-mail me your suggestions or open a pull request on GitHub.
 
 # Contact information
 
-You can e-mail me at [bernardosulzbach@gmail.com](mailto:
+You can e-mail me at [bernardo@bernardosulzbach.com](mailto:
 {{ site.author.email }}?subject=Website Contact).
 
 # My public repositories
