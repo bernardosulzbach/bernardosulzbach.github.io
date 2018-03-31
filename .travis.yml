@@ -1,6 +1,9 @@
 language: ruby
 rvm:
   - 2.2
+sudo: required
+before_install:
+  - sudo update-ca-certificates
 script:
   - bundle install
   - bundle exec jekyll build
