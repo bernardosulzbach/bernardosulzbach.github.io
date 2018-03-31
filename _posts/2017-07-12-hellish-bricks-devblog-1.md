@@ -28,7 +28,7 @@ download and install the Microsoft Visual C++ Redistributable for Visual Studio
 2017 before being able to execute the game.
 
 + [Compiled binary for Windows](https://goo.gl/WfTze5).
-+ [Visual C++ Redistributable](https://goo.gl/csqCeA).
++ [Visual C++ Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
 
 New versions of Wine are also able to run the abovementioned executable.
 
