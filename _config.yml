@@ -23,7 +23,7 @@ plugins:
   - jekyll-sitemap
 
 # Pagination
-paginate: 10
+paginate: 5
 paginate_path: "page/:num"
 
 # About/contact
