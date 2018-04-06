@@ -26,16 +26,16 @@ int sumUpTo(int n) {
 
 ```asm
 sumUpTo(int):
-  test edi, edi
-  jle .LBB0_1
-  lea eax, [rdi - 1]
-  lea ecx, [rdi - 2]
-  imul rcx, rax
-  shr rcx
-  lea eax, [rcx + 2*rdi - 1]
+  test  edi, edi
+  jle   .LBB0_1
+  lea   eax, [rdi - 1]
+  lea   ecx, [rdi - 2]
+  imul  rcx, rax
+  shr   rcx
+  lea   eax, [rcx + 2*rdi - 1]
   ret
 .LBB0_1:
-  xor eax, eax
+  xor   eax, eax
   ret
 ```
 
@@ -78,16 +78,16 @@ int sumTwiceUpTo(int n) {
 
 ```
 sumTwiceUpTo(int):
-  test edi, edi
-  jle .LBB1_1
-  lea eax, [rdi - 1]
-  lea ecx, [rdi - 2]
-  imul ecx, eax
-  and ecx, -2
-  lea eax, [rcx + 4*rdi - 2]
+  test  edi, edi
+  jle   .LBB1_1
+  lea   eax, [rdi - 1]
+  lea   ecx, [rdi - 2]
+  imul  ecx, eax
+  and   ecx, -2
+  lea   eax, [rcx + 4*rdi - 2]
   ret
 .LBB1_1:
-  xor eax, eax
+  xor   eax, eax
   ret
 ```
 

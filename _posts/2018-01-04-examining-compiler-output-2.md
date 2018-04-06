@@ -18,13 +18,13 @@ float evaluate(float a, float b) {
 
 ```
 evaluate(float, float):
-  subss xmm0, xmm1
-  movss xmm2, DWORD PTR .LC0[rip]
-  movaps xmm1, xmm0
-  addss xmm1, xmm2
-  mulss xmm1, xmm0
-  subss xmm0, xmm2
-  mulss xmm0, xmm1
+  subss   xmm0, xmm1
+  movss   xmm2, DWORD PTR .LC0[rip]
+  movaps  xmm1, xmm0
+  addss   xmm1, xmm2
+  mulss   xmm1, xmm0
+  subss   xmm0, xmm2
+  mulss   xmm0, xmm1
   ret
 .LC0:
   .long 1065353216
@@ -38,12 +38,12 @@ evaluate(float, float):
 .LCPI0_1:
   .long 3212836864 # float -1
 evaluate(float, float): # @evaluate(float, float)
-  subss xmm0, xmm1
-  movss xmm1, dword ptr [rip + .LCPI0_0] # xmm1 = mem[0],zero,zero,zero
-  addss xmm1, xmm0
-  mulss xmm1, xmm0
-  addss xmm0, dword ptr [rip + .LCPI0_1]
-  mulss xmm0, xmm1
+  subss   xmm0, xmm1
+  movss   xmm1, dword ptr [rip + .LCPI0_0]
+  addss   xmm1, xmm0
+  mulss   xmm1, xmm0
+  addss   xmm0, dword ptr [rip + .LCPI0_1]
+  mulss   xmm0, xmm1
   ret
 ```
 
