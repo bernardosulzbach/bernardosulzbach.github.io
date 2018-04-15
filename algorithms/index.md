@@ -189,7 +189,7 @@ the middle of a substring.
 
 # Monotone chain for convex hulls
 
-Too big to be here. Got [its own page]({{ site.baseurl }}/algorithms/andrew-monotone-chain-for-convex-hulls/).
+Too big to be here. Got [its own page]({{ site.baseurl }}/algorithms/monotone-chain-for-convex-hulls/).
 
 # Fisher–Yates shuffling algorithm
 
