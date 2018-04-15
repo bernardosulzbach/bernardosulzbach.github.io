@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Andrew's Monotone Chain for Convex Hulls
+title: Monotone Chain for Convex Hulls
 ---
 
 This algorithm finds the convex hull of a set S of points with O(n lg n) time
@@ -31,8 +31,7 @@ points and the arc formed by the last two points of the hull and the next point
 of the ordered set is positively oriented, pop out the last point of the partial
 hull. This new point should then be added to the hull.
 
-The "pseudocode" for this procedure is given below, it will likely make the
-concept clearer
+The code for this procedure is given below.
 
 ```python
 for p in points:
@@ -46,7 +45,11 @@ is a positive value, if OAB makes a counter-clockwise turn, negative for
 clockwise turn, and zero if the points are collinear.
 
 A similar, but vertically mirrored version of the procedure described above is
-used to generate the lower hull.
+used to generate the lower hull. In the end, it is a simple matter of combining
+both hulls into a single one and returning it.
 
-In the end, it is a simple matter of combining both hulls into a single one and
-returning it.
+The complete algorithm is as follows.
+
+```python
+{% include code/monotone-chain-for-convex-hulls/code.py %}
+```
