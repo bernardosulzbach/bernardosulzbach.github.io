@@ -34,8 +34,6 @@ using namespace std;
 #define debug(x) cout << #x " is " << x << '\n'
 #define debugbinary(x) cout << #x " is " << binary(x) << '\n'
 
-// Catalan numbers: C(n) = binomial(2n,n)/(n+1) = (2n)!/(n!(n+1)!)
-
 const double PI = 4 * atan(1);
 
 typedef uint16_t u16;
