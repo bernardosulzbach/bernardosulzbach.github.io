@@ -5,7 +5,7 @@ permalink: /:title/
 title: Bernardo Sulzbach's Website
 description: Discourses on computers, software, and mathematics.
 repository: https://github.com/bernardosulzbach/bernardosulzbach.github.io/
-url: http://www.bernardosulzbach.com
+url: https://www.bernardosulzbach.com
 baseurl: ""
 
 # Markdown

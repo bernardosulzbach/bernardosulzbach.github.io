@@ -15,4 +15,4 @@ It is [hosted at GitHub](https://github.com/contagium/contagium/) and
 released under the MIT license.
 
 You can find an online version of the project
-[here](http://contagium.github.io).
+[here](https://contagium.github.io).

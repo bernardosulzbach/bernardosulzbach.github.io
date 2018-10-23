@@ -53,7 +53,7 @@ significant amount of memory if you are interested in several permutations.
 
 Documentation was omitted for the sake of brevity. One could also consider this
 an example of [code as
-documentation](http://martinfowler.com/bliki/CodeAsDocumentation.html).
+documentation](https://martinfowler.com/bliki/CodeAsDocumentation.html).
 
 ## Algorithm output
 

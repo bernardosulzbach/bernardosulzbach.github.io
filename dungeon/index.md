@@ -22,15 +22,14 @@ the game. You can preview this wiki
 
 Screenshots
 -----------
-[See the gallery](http://www.bernardosulzbach.com/dungeon/screenshots/).
+[See the gallery]({{ site.baseurl }}/dungeon/screenshots/).
 
 Awards
 ------
 
 In 2017 this project won Yegor Bugayenko's Software Quality Award.
 
-![Software Quality Award]({{ site.baseurl
-}}/assets/dungeon/software-quality-award.png)
+![Software Quality Award]({{ site.baseurl }}/assets/dungeon/software-quality-award.png)
 
 Tools
 -----
