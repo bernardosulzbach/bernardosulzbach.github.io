@@ -6,6 +6,7 @@ tags: [sidebar]
 
 This is a list of some of my contributions to open-source projects.
 
++ Improved the documentation of [pygame](https://github.com/pygame/pygame).
 + Fixed a [bug](https://github.com/scipy/scipy/issues/5450) in [SciPy](https://github.com/scipy/scipy).
 + Translated [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) to Portuguese multiple times.
 + Code clean up in [python-mysql-replication](https://github.com/noplay/python-mysql-replication).
