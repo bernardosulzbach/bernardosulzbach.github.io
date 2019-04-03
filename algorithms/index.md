@@ -203,9 +203,13 @@ This is a must-know shuffling algorithm. [It has its own page]({{ site.baseurl }
 
 [Levenshtein distance page]({{ site.baseurl }}/algorithms/levenshtein-distance/).
 
+# Intervals
+
+See the [interval manipulation page]({{ site.baseurl }}/algorithms/intervals/).
+
 # Sorting
 
-[Sorting page]({{ site.baseurl }}/algorithms/sorting/).
+See the [sorting page]({{ site.baseurl }}/algorithms/sorting/).
 
 # Miscellaneous
 
