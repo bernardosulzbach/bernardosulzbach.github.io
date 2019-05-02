@@ -32,9 +32,8 @@ selected pseudo-random number is a bad solution, as it is likely to result in a
 non-uniform random selection.
 
 Another bad solution is to fetch all primary keys, select one at random in
-application code, and fetching the corresponding row. This solution is
-specially bad as the selected row might have been deleted between the two
-queries.
+application code, and fetch the corresponding row. This solution is specially
+bad as the selected row might have been deleted between the two queries.
 
 The proper solution is to rely on the nonstandard `LIMIT` clause supported by
 some database systems or in the `ROW_NUMBER` window function supported in some
@@ -45,26 +44,27 @@ SELECT * FROM integer ORDER BY id
   LIMIT 1 OFFSET floor(random() * (SELECT count(*) FROM integer))
 ```
 
-It is worth pointing out that some database brands might have proprietary
+It is worth pointing out that some database brands might have some proprietary
 solutions for this problem.
 
 ## Performance benchmarking
 
 Some microbenchmarking shows that the problem is not so bad as the author of
-SQL Antipatterns points it out. At least not in PostgreSQL 11.
+SQL Antipatterns points out. At least not in PostgreSQL 11.
 
 The following table shows the results I obtained with [this script]({{
-site.base_url }}/assets/database-design/sql-antipatterns/random-selection.py),
+site.baseurl }}/assets/database-design/sql-antipatterns/random-selection.py),
 which uses a table of integers. The difference might be more substantial for
 larger tables and tables with more data per row.
 
 Rows       | Random sort | Random offset
-----------:|------------:|-------------:
-        10 |    0.123 ms |      0.193 ms
-       100 |    0.149 ms |      0.236 ms
-     1,000 |    0.387 ms |      0.382 ms
-    10,000 |    2.485 ms |      2.037 ms
-   100,000 |   20.341 ms |     14.419 ms
- 1,000,000 |  204.561 ms |    108.737 ms
+----------:| -----------:|-------------:
+        10 |    0.143 ms |      0.175 ms
+       100 |    0.166 ms |      0.190 ms
+     1,000 |    0.358 ms |      0.279 ms
+    10,000 |    2.399 ms |      1.865 ms
+   100,000 |   22.059 ms |     16.074 ms
+ 1,000,000 |  208.594 ms |    112.629 ms
+10,000,000 | 2264.827 ms |   1393.280 ms
 
 "Some queries cannot be optimized; take a different approach."

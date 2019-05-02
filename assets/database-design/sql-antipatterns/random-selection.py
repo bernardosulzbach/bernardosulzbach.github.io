@@ -1,5 +1,6 @@
-import psycopg2
 import time
+
+import psycopg2
 
 TRIALS = 100
 
@@ -8,7 +9,8 @@ if __name__ == '__main__':
         cursor = connection.cursor()
         cursor.execute("DROP TABLE IF EXISTS integer")
         cursor.execute("CREATE TABLE integer (id serial PRIMARY KEY)")
-        steps = [10 ** i for i in range(1, 6 + 1)]
+        cursor.execute("CREATE INDEX ON integer (id)")
+        steps = [10 ** i for i in range(1, 8)]
 
 
         def profile_query(query):
@@ -28,5 +30,5 @@ if __name__ == '__main__':
             connection.commit()
             a_time.append(profile_query(a_query))
             b_time.append(profile_query(b_query))
-        print(a_time)
-        print(b_time)
+        for i in range(len(steps)):
+            print("{:-10,} | {:-8.3f} ms | {:-8.3f} ms ".format(steps[i], 1000 * a_time[i], 1000 * b_time[i]))
