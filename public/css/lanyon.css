@@ -80,9 +80,24 @@ h6 {
     max-width: 32rem;
   }
 }
-@media (min-width: 56em) {
+@media (min-width: 44em) {
   .container {
     max-width: 38rem;
+  }
+}
+@media (min-width: 50em) {
+  .container {
+    max-width: 44rem;
+  }
+}
+@media (min-width: 56em) {
+  .container {
+    max-width: 50rem;
+  }
+}
+@media (min-width: 62em) {
+  .container {
+    max-width: 56rem;
   }
 }
 
