@@ -10,6 +10,7 @@ I use Travis CI to test the site and make sure that all links are valid.
 
 + [Jekyll](https://github.com/jekyll/jekyll)
 + [Lanyon](https://github.com/poole/lanyon)
++ [Prettier](https://prettier.io/)
 + [Travis CI](https://travis-ci.org/)
 + [HTMLProofer](https://github.com/gjtorikian/html-proofer)
 
