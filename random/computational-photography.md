@@ -61,6 +61,70 @@ These are also called thermographic cameras. They filter out higher frequencies
 surfaces are and useful to detect animals, perform heat-loss detection, and
 analyze heat dissipation.
 
+# Color
+
+A color model is a mathematical model describing the way colors can be
+represented as tuples of numbers, such as triples in RGB or quadruples in CMYK.
+A color space is a specific organization of colors which allows for
+reproducible representations of color. It is a particular combination of a
+color model and a mapping function.
+
+# Dynamic range
+
+The human vision has greater dynamic range than most cameras. One thing that
+can be done to get images that capture a wider dynamic range is to use multiple
+low dynamic range pictures, combine their radiance values into a high dynamic
+range image and use a tone mapping operator in order to get a low dynamic range
+image which contains now more details.
+
+Irradiance can be approximated from pixel values by undoing the gamma
+transformation, then using the inverse of the camera response curve (a curve
+which stores - per color channel - the amount of incoming light required to get
+a certain pixel value) and finally dividing the results by the exposure time.
+
+There are global and local tone mapping algorithms. While global tone mapping
+algorithms use the same parameters to process all pixels in the image, local
+tone mapping algorithms might use different parameters depending on the
+neighboring pixels.
+
+There are displays with higher dynamic range than most consumer screens.
+
+# EXIF metadata
+
+EXIF, or exchangeable image file format, metadata stores information about the
+camera and the settings used to take the picture.
+
+# Vector differential operators
+
+The ∇, or nabla, or is a vector differential operator which takes derivatives
+of the quantity on which it was applied to.
+
+The gradient is the result of the application of ∇ to a scalar field in order
+to produce a vector field.
+
+The divergent produces a scalar field from a vector field. It is positive if
+the vectors it are diverging.
+
+The curl produces a vector field from a vector field. It indicates the tendency
+of a vector field to circulate around a point.
+
+The Laplacian is the concatenation of the gradient and the divergent. It works
+as a concavity and peak detector. It is positive on minima and negative on
+maxima.
+
+# Image compositing
+
+Seamless cloning is a technique which uses the Laplacian operator before
+solving a minimization problem on the difference of the gradient fields of the
+original image and the cloned region. It's based on the fact that humans notice
+large variations much more easily than small continuous differences.
+
+# Image segmentation
+
+The intelligent scissors method uses information about the gradient of the
+image to find path between two control points which crosses the minimum number
+of edges.
+
 # Fourier transforms
 
 There are four Fourier representations.
