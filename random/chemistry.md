@@ -8,7 +8,7 @@ tags: [random]
 
 ## Ideal gas law
 
-`PV = nRT`
+PV = nRT
 
 ## Diffusion and Effusion
 
