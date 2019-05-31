@@ -66,6 +66,11 @@ A good design helps one to maintain speed in software development. Refactoring
 thus sometimes helps one develop software faster, because it keeps the quality
 of the design of the system.
 
+A good advantage of refactoring away technical debt in a gradual manner, only
+changing the parts of the codebase that you have to touch for some reason, is
+that the investment made in modernizing and cleaning up code is only thrown
+into regions which have to potential to actually pay it off.
+
 # Class proliferation
 Designers of object-oriented systems should avoid class proliferation. Such
 proliferation creates management problems and hinders software reusability,
