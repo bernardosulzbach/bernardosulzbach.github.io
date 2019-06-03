@@ -12,7 +12,7 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }}
+      {{ site.title }} - Page {{ paginator.page }}
     {% else %}
       {{ page.title }} - {{ site.title }}
     {% endif %}
