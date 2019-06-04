@@ -2,6 +2,7 @@
 layout: page
 title: About
 tags: [sidebar]
+description: Information about me and how to contact me.
 ---
 
 # This website
