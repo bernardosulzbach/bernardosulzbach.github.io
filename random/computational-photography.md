@@ -178,3 +178,23 @@ In case there is no noise, it reduces to inverse filtering.
 
 When N(u, v) and F(u, v) are not known and cannot be estimated, an
 empirically-chosen constant K is used.
+
+# Coded aperture
+
+A conventional aperture is a **depth-dependent low-pass filter**. Because the
+circles of confusion increase with the distance from the point to the focal
+plane, depth can be estimated based on the size of the blur kernel.
+
+Factorable masks are masks defined as the convolution of a structural component
+(S) and a hole component (h). S defines the location and the transparency of
+the mask's holes and h improves the mask's light efficiency. These masks
+generate superimposed image copies, which can then be solved to recover both
+color and depth from single images based on mask factorization.
+
+Factorization has several advantages, such as simplifying analysis, design,
+implementation, and deconvolution compared to previous approaches are based on
+optimization.
+
+For more details, the following paper is a relevant source. [Fortunato, H. E.
+and Oliveira, M. M. (2012), Coding Depth through Mask Structure. Computer
+Graphics Forum, 31: 459-468](https://doi.org/10.1111/j.1467-8659.2012.03025.x).
