@@ -151,3 +151,30 @@ The DFT and its inverse always exist.
 One can use the DFT to analyze 2D signals (such as images). It is worth
 pointing out that the inverse might produce imaginary values due to rounding
 errors.
+
+# Image restoration
+
+If f(x, y) is an image, letting h(x, y) be a degradation function and n(x, y)
+be a noise function, then g(x, y) = f(x, y) * h(x, y) + n(x, y) is a possible
+way to model a degraded version of f(x, y). Image restoration techniques may
+attempt to obtain f(x, y) from g(x, y).
+
+Even if H(u, v) (the DFT of h(x, y)) is known, recovering F(u, v) may be
+impossible as N(u, v) is random.
+
+F'(u, v) = F(u, v) + N(u, v) / H(u, v)
+
+If H(u, v) has small values, it may drastically affect the values of F'(u, v)
+during reverse filtering. This means that **inverse filtering is very sensitive
+to noise**.
+
+## Wiener filter
+
+The [Wiener filter](https://en.wikipedia.org/wiki/Wiener_filter) is a type of
+filter that attempts to minimize the impact of noise. It minimizes the mean
+square error between the estimated random process and the desired process.
+
+In case there is no noise, it reduces to inverse filtering.
+
+When N(u, v) and F(u, v) are not known and cannot be estimated, an
+empirically-chosen constant K is used.
