@@ -155,7 +155,7 @@ errors.
 # Image restoration
 
 If f(x, y) is an image, letting h(x, y) be a degradation function and n(x, y)
-be a noise function, then g(x, y) = f(x, y) * h(x, y) + n(x, y) is a possible
+be a noise function, then g(x, y) = f(x, y) ∗ h(x, y) + n(x, y) is a possible
 way to model a degraded version of f(x, y). Image restoration techniques may
 attempt to obtain f(x, y) from g(x, y).
 
@@ -198,3 +198,125 @@ optimization.
 For more details, the following paper is a relevant source. [Fortunato, H. E.
 and Oliveira, M. M. (2012), Coding Depth through Mask Structure. Computer
 Graphics Forum, 31: 459-468](https://doi.org/10.1111/j.1467-8659.2012.03025.x).
+
+# Deconvolution
+
+Image capture might be modelled as the following convolution.
+
+    g = h ∗ f + n
+
+Deconvolution to obtain f from g is a highly ill-posed problem, whose solution
+requires additional constraints.
+
+This type of deconvolution has several applications in microscopy, photography,
+and astronomy.
+
+Deconvolution is said to be blind when the impulse response function used in
+the convolution is not known and non-blind when it is known.
+
+Padding can prevent ringing artifacts at the borders when performing frequency
+domain deconvolution.
+
+# Edge-aware image processing
+
+Color images can be seen as a 2-D surface embedded in a 5-D space.
+
+An edge-preserving filter can be described as a 5-D spatially-invariant
+convolution kernel whose response decreases as distances among pixels increase
+in 5-D.
+
+Convolution in 5-D is usually too slow to be done directly. However, by
+preserving the distances observed in the 5-D space in a lower-dimensional
+space, edge-aware filtering can be done more efficiently.
+
+There is a domain transform that preserves geodesic distances on 1-D image
+manifolds embedded in n-D space. It is show in [Eduardo S. L. Gastal and Manuel
+M. Oliveira. "Domain Transform for Edge-Aware Image and Video Processing". ACM
+Transactions on Graphics. Volume 30 (2011), Number 4, Proceedings of SIGGRAPH
+2011, Article 69](https://doi.acm.org/10.1145/1964921.1964964).
+
+The domain transform scales the signal by a function of its range, in such a
+way that, by applying a local scaling to each position, a linear filter can
+work as an n-D filter.
+
+A 2-D domain transform cannot exist in general because it would require mapping
+a 2-D manifold in n-D to R<sup>2</sup>.
+
+The proposed 1-D transform can be used to perform high-quality edge-preserving
+2-D filtering by iterating 1-D filtering operations.
+
+In order to perform 2-D filtering through the 1-D filter, a few iterations are
+required. Horizontal and vertical passes are interleaved and the length of the
+filter support is halved at each iteration.
+
+There are three main filter realizations for doing domain transform filtering.
+
+**Normalized convolution**. Good for stylization and abstraction: smooths
+similar regions and sharpens relevant edges.
+
+**Interpolated convolution**. Good for applications where edge sharpening is
+not desirable, such as tone mapping, detail manipulation.
+
+**Recursive filtering**. Good for edge-aware interpolation, such as
+colorization and recoloring. It propagates information across the whole image.
+
+## Filter separability
+
+A separable filter in the context of image processing can be written as product
+of two more simple filters. A typical example is a 2-dimensional convolution
+operation separated into two 1-dimensional filters, which reduces the cost of
+computing the operator.
+
+# Adaptive manifolds
+
+One can sample the high-dimensional space at a few points and use this
+information to interpolate the filter response for all pixels. An important
+observation is that one can improve filtering performance if the sampling
+points are on a small number of manifolds adapted to the signal.
+
+There is a technique for high-dimensional filtering with linear cost in the
+number of pixels and in the dimensionality of the space proposed in [Eduardo S.
+L. Gastal and Manuel M. Oliveira. "Adaptive Manifolds for Real-Time
+High-Dimensional Filtering". ACM Transactions on Graphics. Volume 31 (2012),
+Number 4, Proceedings of SIGGRAPH 2012, Article
+33](https://doi.acm.org/10.1145/2185520.2185529).
+
+Through this technique one can perform filtering in high-dimensional spaces by
+creating adaptive manifolds, projecting the signal onto these manifolds, then
+filtering these projections, and at last integrating them together.
+
+# Image forensics
+
+## Acquisition traces
+
+The use of color filter arrays (CFAs) introduces demosaicing traces
+(correlation between neighbor pixels). Modifications might also change sensor
+noise patterns.
+
+## Compression traces
+
+There are compression traces, which can indicate that an image has been
+compressed twice.
+
+## Editing traces
+
+Editing traces are lighting traces and geometric traces.
+
+## Lack of standardization
+
+Image forensics lacks terminology standardization as of 2015.
+
+# Filtering of non-uniformly sample signals
+
+Some applications are better defined using non-uniform sampling. Through
+High-order recursive filters, one can obtain practically unlimited control over
+the filtering kernel.
+
+Recursive filters have several advantages, such as the linear time complexity
+on the number of samples, their infinite impulse response (IIR), and their
+straightforward implementation. With recursive filters it is possible to
+approximate many important filters.
+
+High-order filters can be decomposed into first-order filters through
+partial-fraction expansion. By applying all first-order filters in parallel and
+accumulating the results one can obtain the final filtered signal.
