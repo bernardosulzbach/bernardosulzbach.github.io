@@ -320,3 +320,21 @@ approximate many important filters.
 High-order filters can be decomposed into first-order filters through
 partial-fraction expansion. By applying all first-order filters in parallel and
 accumulating the results one can obtain the final filtered signal.
+
+# Image downscaling
+
+Some spatial frequencies might not be representable in the downscaled image.
+Sometimes, this high-frequency information is important and must be preserved.
+
+The key idea of [Eduardo S. L. Gastal and Manuel M. Oliveira. "Spectral
+Remapping for Image Downscaling". ACM Transactions on Graphics. Volume 36
+(2017), Number 4, Proceedings of SIGGRAPH 2017, Article
+145](https://dx.doi.org/10.1145/3072959.3073670) is that it is possible to
+represent high-frequency structured content in downscaled images by spectrally
+remapping this content, before downscaling, to frequencies representable at the
+target resolution.
+
+In the proposed method, the image is divided in overlapping patches, which will
+undergo frequency remapping. After this is done, phase alignment must be
+performed to prevent visible discontinuities between the remapped patches.
+
