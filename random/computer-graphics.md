@@ -250,4 +250,28 @@ Combines both approaches.
 
 Expressed as L(S\|D)<sup>\*</sup>E.
 
+# Surface reconstruction from point clouds
 
+There are several incentives for the use of point clouds.
+
++ Modelling is time-consuming.
++ Models are becoming more detailed.
++ Art archiving.
++ Forensic studies.
+
+**Algebraic methods** which try to fit a single and simple surface to the data
+points are only suitable for very small datasets.
+
+**Geometric methods** often times rely on [Delaunay
+triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation). These
+methods are very sensitive to noise and point cloud density.
+
+**Implicit methods** construct a function $$f$$ whose
+[isosurface](https://en.wikipedia.org/wiki/Isosurface) 0 approximates the
+surface of the original object. In these methods objects are represented as
+equations, which requires isosurface extraction algorithms to be able to render
+them using the conventional graphics pipeline and derivatives to compute their
+normals.
+
+**Radial functions** provide a general approach that will approximate the
+object through the solution of a linear system.
