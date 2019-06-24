@@ -190,3 +190,64 @@ virtual scene. It is pre-calculated and stored in texture maps for later use.
 They are used to provide good quality global illumination at a relatively low
 computational cost.
 
+# Relief mapping
+
+Depth and surface details are hard to model, so relief mapping is used to fake
+these fine details. Normal mapping is used to define normals through a texture.
+Depth mapping is used to add depth to a surface. Relief mapping is based on a
+per-fragment ray and height-field intersection.
+
+Finding the intersection of the ray and the height-field starts with a linear
+search in order to determine the boundaries for a faster and more precise
+binary search.
+
+## Impostors
+
+Impostors are an efficient way of adding a large number of simple models to a
+virtual scene without rendering a large number of polygons. A quad is rotated
+around its center so that it always faces the camera. Relief mapping might be
+used to improve the photorealism of the rendered texture.
+
+[This article from
+NVIDIA](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch21.html) has
+more details on this.
+
+# Global illumination
+
+In global illumination, the shading of a surface point is computed taking into
+account the other elements of the scene.
+
+A light ray may hit several surfaces before it reaches the viewer. This better
+approximation has a higher cost.
+
+## Global illumination algorithms
+
+Global illumination algorithms are sometimes described by a regular expression
+involving L (the light source), S (a specular reflection), D (a diffuse
+reflection), and E (the eye).
+
+### Recursive ray tracing
+
+Handles multiple inter-reflections between shiny surfaces, refraction, and
+shadows. Does not consider multiple diffuse reflections.
+
+Produces high-quality results for specular surfaces.
+
+Expressed as LS<sup>\*</sup>E \| LDS<sup>\*</sup>E.
+
+### Radiosity
+
+Handles multiple reflections between diffuse surfaces, which includes color
+bleeding.
+
+Produces high-quality results for diffuse environments.
+
+Expressed as LD<sup>\*</sup>E.
+
+### Two-pass (radiosity and ray tracing)
+
+Combines both approaches.
+
+Expressed as L(S\|D)<sup>\*</sup>E.
+
+
