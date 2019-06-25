@@ -17,6 +17,20 @@ the focal point on the other side. Similarly, any ray entering the lens from
 the focal point on one side emerges parallel to optical the axis on the other
 side.
 
+## Aperture and depth of field
+
+The depth of field (DOF) is the front-to-back region of a photograph in which
+the image is sharp. The focus plane is the plane on which the objects will look
+the sharpest. The terms shallow and deep are used to describe the depth of
+field. Three factors determine depth of field: aperture, distance from the
+lens, and the focal length of the lens.
+
+The smaller the aperture, the deeper the depth of field. Therefore, a f/16
+aperture has a much deeper DOF than a f/2 aperture.
+
+[This is a good article](https://www.exposureguide.com/focusing-basics/) about
+focusing.
+
 ## The thin lens equation
 
 1 / f = 1 / d<sub>o</sub> + 1 / d<sub>i</sub>
@@ -40,8 +54,8 @@ shades, gamma compression is performed. It reserves more bits to darker shades.
 ## Issues
 
 Blooming is caused when the photodiodes overflow and contaminate adjacent
-pixels. A solution is the create overflow wells, but this takes precious sensor
-area.
+pixels. A solution is the create overflow wells, but this takes away precious
+sensor area.
 
 # Time of flight cameras
 
@@ -51,15 +65,15 @@ a time counter is not easy as it would require very high frequencies. A better
 solution is to use phase shift to compute how long the light took to get back
 to the camera.
 
-Even though flight cameras can work at higher frame rates than many consumer
-grade cameras, they do not have great resolution.
+Even though time of flight cameras can work at higher frame rates than many
+consumer grade cameras, they do not have great resolution.
 
 # Infrared cameras
 
 These are also called thermographic cameras. They filter out higher frequencies
 (such as frequencies in the visible spectrum) in order to measure how hot
-surfaces are and useful to detect animals, perform heat-loss detection, and
-analyze heat dissipation.
+surfaces are. These cameras are useful to detect animals, perform heat-loss
+detection, and analyze heat dissipation.
 
 # Color
 
@@ -75,7 +89,7 @@ The human vision has greater dynamic range than most cameras. One thing that
 can be done to get images that capture a wider dynamic range is to use multiple
 low dynamic range pictures, combine their radiance values into a high dynamic
 range image and use a tone mapping operator in order to get a low dynamic range
-image which contains now more details.
+image which contains more details.
 
 Irradiance can be approximated from pixel values by undoing the gamma
 transformation, then using the inverse of the camera response curve (a curve
@@ -96,8 +110,8 @@ camera and the settings used to take the picture.
 
 # Vector differential operators
 
-The ∇, or nabla, or is a vector differential operator which takes derivatives
-of the quantity on which it was applied to.
+The ∇, or nabla, is a vector differential operator which takes derivatives of
+the quantity on which it was applied to.
 
 The gradient is the result of the application of ∇ to a scalar field in order
 to produce a vector field.
@@ -165,7 +179,7 @@ impossible as N(u, v) is random.
 F'(u, v) = F(u, v) + N(u, v) / H(u, v)
 
 If H(u, v) has small values, it may drastically affect the values of F'(u, v)
-during reverse filtering. This means that **inverse filtering is very sensitive
+during inverse filtering. This means that **inverse filtering is very sensitive
 to noise**.
 
 ## Wiener filter
@@ -192,7 +206,7 @@ generate superimposed image copies, which can then be solved to recover both
 color and depth from single images based on mask factorization.
 
 Factorization has several advantages, such as simplifying analysis, design,
-implementation, and deconvolution compared to previous approaches are based on
+implementation, and deconvolution compared to previous approaches based on
 optimization.
 
 For more details, the following paper is a relevant source. [Fortunato, H. E.
@@ -295,8 +309,8 @@ noise patterns.
 
 ## Compression traces
 
-There are compression traces, which can indicate that an image has been
-compressed twice.
+There are compression traces, which can indicate that certain regions of an
+image have been compressed multiple times.
 
 ## Editing traces
 
@@ -304,12 +318,12 @@ Editing traces are lighting traces and geometric traces.
 
 ## Lack of standardization
 
-Image forensics lacks terminology standardization as of 2015.
+Image forensics is an area that lacks terminology standardization.
 
 # Filtering of non-uniformly sample signals
 
 Some applications are better defined using non-uniform sampling. Through
-High-order recursive filters, one can obtain practically unlimited control over
+high-order recursive filters, one can obtain practically unlimited control over
 the filtering kernel.
 
 Recursive filters have several advantages, such as the linear time complexity
