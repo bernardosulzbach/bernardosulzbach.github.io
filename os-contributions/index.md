@@ -16,4 +16,8 @@ This is a list of some of my contributions to open-source projects.
 + Fixed typos in the installation instructions of [Racket](https://github.com/racket/racket).
 + Fixed a cross-platform Lua [bug](https://github.com/minetest/minetest/issues/4720) in [Minetest](https://github.com/minetest/minetest).
 
+I'm also an active Wikipedia contributor, [these are my contributions to the
+English
+Wikipedia](https://en.wikipedia.org/wiki/Special:Contributions/BernardoSulzbach).
+
 See also my [portfolio]({{ site.baseurl }}/portfolio).
