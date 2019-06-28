@@ -33,8 +33,6 @@ nodes.
 possible to not use NAT or use it less often, which should improve performance
 of the network.
 
-  **TODO: find some more arguments.**
-
 **What are the transition mechanisms between IPv4 and IPv6?**
 
 + **Dual-stack**. This approach requires IPv6 nodes to also have a complete IPv4
