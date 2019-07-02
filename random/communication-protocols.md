@@ -179,3 +179,102 @@ $$T = E_{RTT}(n) + 4 D_{RTT}(n)$$
 Timeouts and three ACKs for the same segment. Retransmitting after three ACKs
 is known as fast retransmit.
 
+**What is TCP fast recovery?**
+
+In fast recovery, which is entered after three duplicate ACKs, the congestion
+window is halved and then grows linearly. After a timeout, we are back to the
+slow start, in which the congestion window has size = 1 MSS and grows
+exponentially.
+
+This is because 3 duplicate ACKs indicate a network capable of delivering some
+segments. However, a timeout indicates a more serious congestion or even
+failure of the network.
+
+A variable controls the slow start threshold, which determines when the
+connection changes to AIMD. It is typically set to half the congestion window
+just before the loss event.
+
+**What are the studied TCP flavors?**
+
+Tahoe
+
+Reno
+
+New Reno
+- Refined Reno's fast recovery.
+- Tries to deal with multiple packet losses as a single congestion event.
+
+Vegas
+- A proactive method to replace the reactive solutions.
+- Vegas is based on RTT measurements. It anticipates losses and adjusts the congestion window accordingly.
+
+Westwood
+- A modification of New Reno.
+- Substantially better in error-prone networks, such as wireless networks.
+- Replaces the blind Reno's congestion control with a heuristic procedure.
+
+CUBIC
+
+**What were the main hacks used because of HTTP/1.1?**
+
+*Domain sharding*
+
+*Concatenating files (JavaScript, CSS)*
+
+This caused less modular code and expensive cache invalidations when anything
+changed. It also slowed down execution, as the browser had to wait for the
+whole file to be downloaded.
+
+Content prioritization introduced in HTTP/2 helps alleviate the need for this.
+
+*Image spriting*
+
+Preprocessing was required to make up the sprites. Also, the whole sprite
+bitmap had to be decoded at once, which was heavy on the client.
+
+*Resource inlining*
+
+Prevents resources from being cached. Pays the overhead of Base64 encoding.
+
+This is addressed by HTTP/2 through server push.
+
+**Talk about the binary frame and header compression.**
+
+Binary framing was introduced in HTTP/2. All frames have an 8-byte header with
+length (16 bits), type (8 bits), flags (8 bits), 1 reserved bit, and the stream
+identifier (31 bits).
+
+HTTP/2 performs header compression, in which both client and server maintain
+"header tables". Therefore, only changes to the headers have to be sent through
+the network.
+
+**What are the three main multimedia classes studied?**
+
+*Streaming stored audio video*
+
+Can leverage large buffers and CDNs. The most resilient to latency.
+
+*Streaming live audio or video*
+
+More sensitive to latency than stored video.
+
+*Conversational audio or video over IP*
+
+The most sensitive to network oscillations, as the latency has to be kept low.
+
+**Why client-side buffering is important?**
+
+The client wants to have continuous playout of video. However, the network
+delay and its variation (jitter) make the time of arrival of frames variable.
+Client-side buffering alleviates this problem by storing more video than the
+barely minimum needed for continuous playout.
+
+**Why CDNs matter?**
+
+**What are the most prevalent CDN content selection algorithms?**
+
+**What is content outsourcing?**
+
+**What is content outsourcing?**
+
+**How is the CDN node selected?**
