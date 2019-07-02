@@ -124,3 +124,58 @@ network.
 as possible.
 0. The network may block a call (request) if it cannot meet its needs.
 
+**What are the transport abstractions used by TCP and UDP?**
+
+TCP uses a byte stream abstraction, while UDP uses a datagram abstraction.
+
+**How congestion control and flow control interact?**
+
+To do.
+
+**How does the receiver in TCP handle out-of-order segments?**
+
+This is not specified. It is up to the implementation.
+
+**How TCP calculates timeouts?**
+
+TCP keeps an adaptive calculation to determine the timeout. If the timeout is
+too short, it will cause unnecessary retransmissions. If the timeout is too
+long, the sender will be slow to react to losses.
+
+There are no timers per segment, timers are per connection. The timer can be
+understood as the timer for the oldest segment which has not yet been
+acknowledged. When a timeout occurs, the segment is retransmitted and the timer
+is restarted.
+
+The timeout is the estimated round-trip time plus a "safety margin".
+
+The estimated RTT ($$E_{RTT}$$) is an exponential weighted moving average. It
+uses a parameter $$\alpha$$ and evaluates the following expression.
+
+$$E_{RTT}(n) = (1 - \alpha) E_{RTT}(n - 1) + \alpha S_{RTT}(n - 1)$$
+
+Typically, $$\alpha$$ is 0.125.
+
+In which $$S_{RTT}$$ is the measured time from segment transmission until
+acknowledgement receipt. This calculation ignores retransmissions.
+
+The deviated RTT ($$D_{RTT}$$) is evaluated given by the following expression.
+
+$$D_{RTT}(n) = (1 - \beta) D_{RTT}(n - 1) + \beta \left|(S_{RTT}(n - 1) - E_{RTT}(n - 1)\right|$$
+
+Typically, $$\beta$$ is 0.25. Larger values for $$\beta$$ will make deviations
+weight more into the timeout.
+
+In both of these formulas, having larger values of the factor $$\alpha$$ or
+$$\beta$$ makes the formula more sensitive to recent values. Conversely,
+smaller values make the metric to be more based on the past.
+
+The timeout can be evaluated through the following formula.
+
+$$T = E_{RTT}(n) + 4 D_{RTT}(n)$$
+
+**What are the ways of TCP detecting losses?**
+
+Timeouts and three ACKs for the same segment. Retransmitting after three ACKs
+is known as fast retransmit.
+
