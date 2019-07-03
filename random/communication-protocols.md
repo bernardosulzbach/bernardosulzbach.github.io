@@ -130,8 +130,6 @@ TCP uses a byte stream abstraction, while UDP uses a datagram abstraction.
 
 **How congestion control and flow control interact?**
 
-To do.
-
 **How does the receiver in TCP handle out-of-order segments?**
 
 This is not specified. It is up to the implementation.
@@ -179,16 +177,16 @@ $$T = E_{RTT}(n) + 4 D_{RTT}(n)$$
 Timeouts and three ACKs for the same segment. Retransmitting after three ACKs
 is known as fast retransmit.
 
-**What is TCP fast recovery?**
+**What is TCP Fast Recovery?**
 
-In fast recovery, which is entered after three duplicate ACKs, the congestion
+In Fast Recovery, which is entered after three duplicate ACKs, the congestion
 window is halved and then grows linearly. After a timeout, we are back to the
 slow start, in which the congestion window has size = 1 MSS and grows
 exponentially.
 
-This is because 3 duplicate ACKs indicate a network capable of delivering some
-segments. However, a timeout indicates a more serious congestion or even
-failure of the network.
+The reasoning behind this is that multiple duplicate ACKs indicate a network
+capable of delivering some segments. However, a timeout indicates a more
+serious congestion or even failure of the network.
 
 A variable controls the slow start threshold, which determines when the
 connection changes to AIMD. It is typically set to half the congestion window
@@ -196,28 +194,37 @@ just before the loss event.
 
 **What are the studied TCP flavors?**
 
-Tahoe
+*Tahoe*
 
-Reno
+*Reno*
 
-New Reno
-- Refined Reno's fast recovery.
+*NewReno*
+- Refined Reno's Fast Recovery.
+  + When selective acknowledgement is not being used and the algorithm enters Fast Recovery triggered by three duplicate acknowledgements, it does not know which segments to retransmit other than the first unacknowledged segment.
+    NewReno gives special treatment to partial acknowledgements that might happen during Fast Recovery.
+    It does not halve the congestion window if another segment was also not delivered, like Reno would, and will keep retransmitting the first unacknowledged segment until it leaves Fast Recovery.
+    Because NewReno can send new packets at the end of the congestion window during Fast Recovery, high throughput is maintained during the Fast Recovery process.
+    When it enters Fast Recovery, it stores the highest unacknowledged packet sequence number. When this sequence number is acknowledged, it returns to the congestion avoidance state.
 - Tries to deal with multiple packet losses as a single congestion event.
 
-Vegas
+*Vegas*
 - A proactive method to replace the reactive solutions.
 - Vegas is based on RTT measurements. It anticipates losses and adjusts the congestion window accordingly.
 
-Westwood
-- A modification of New Reno.
+*Westwood*
+- A modification of NewReno.
 - Substantially better in error-prone networks, such as wireless networks.
 - Replaces the blind Reno's congestion control with a heuristic procedure.
 
-CUBIC
+*CUBIC*
+- Designed for long, fat networks.
 
 **What were the main hacks used because of HTTP/1.1?**
 
 *Domain sharding*
+
+Splits site resources across different origins, in order to allow the client to
+open more than six TCP connections.
 
 *Concatenating files (JavaScript, CSS)*
 
@@ -240,9 +247,9 @@ This is addressed by HTTP/2 through server push.
 
 **Talk about the binary frame and header compression.**
 
-Binary framing was introduced in HTTP/2. All frames have an 8-byte header with
-length (16 bits), type (8 bits), flags (8 bits), 1 reserved bit, and the stream
-identifier (31 bits).
+Binary framing was introduced in HTTP/2.
+
+All binary frames have an 8-byte header with the fields length (16 bits), type (8 bits), flags (8 bits), 1 reserved bit, and the stream identifier (31 bits).
 
 HTTP/2 performs header compression, in which both client and server maintain
 "header tables". Therefore, only changes to the headers have to be sent through
@@ -271,10 +278,31 @@ barely minimum needed for continuous playout.
 
 **Why CDNs matter?**
 
-**What are the most prevalent CDN content selection algorithms?**
+CDNs distribute content to cache servers located close to users, resulting in
+fast, reliable applications and Web services for the users.
 
-**What is content outsourcing?**
-
-**What is content outsourcing?**
+More specifically, they maintain multiple points of presence with clusters of
+surrogate servers that store copies of identical content.
 
 **How is the CDN node selected?**
+
+The CDN node may be selected as the one that is the fewest hops or the least number of network seconds away from the requesting client.
+It may also be the one with the highest availability in terms of server performance, so as to optimize delivery across local networks.
+It may even be optimized for cost, and the locations that are least expensive may be chosen instead.
+These two goals tend to align as the cheapest is usually the closest location.
+
+**What is content outsourcing?**
+
+Content outsourcing is the operation of moving data into a CDN.
+
+Three common content outsourcing practices are the following.
+
++ *Cooperative push-based*. Content is proactively pushed from the original server into the CDN servers.
++ *Uncooperative pull-based*. Client requests are redirected through DNS redirection or URL rewriting to their closest surrogate server. If a cache miss occurs, the CDN server will pull from the origin server.
++ *Cooperative pull-based*. Client requests are redirected through DNS redirection or URL rewriting to their closest surrogate server. The key difference is that the CDN servers will cooperate so that in case of a miss they will first reach out to other CDN servers.
+
+**What are the most prevalent CDN content selection algorithms?**
+
+Typically, Web content is grouped based on either correlation or access frequency and then replicated in units of content clusters.
+Content clustering can be based on user session statistics or on the site topology.
+
