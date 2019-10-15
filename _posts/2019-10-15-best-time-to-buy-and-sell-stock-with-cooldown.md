@@ -8,7 +8,7 @@ This is my solution for the LeetCode problem number 309, [Best Time to Buy and S
 
 This is a quite simple problem which can be addressed in O(1) space and O(n) time using dynamic programming.
 However, the O(n) space solution seems easier to arrive at.
-The subproblem explored through dynamic programming is that starting day $$i$$ with no stock bought and after the cooldown has ended is equivalent to solving a subproblem which consists of only days $$i$$ through $$n$$.
+The subproblem explored through dynamic programming is that starting day $$i$$ with no stock and after the cooldown has ended is equivalent to solving the original problem with only days $$i$$ through $$n$$.
 
 In this solution, 0 is used to indicate that no stock is owned, 1 is used to indicate that stock is owned and 2 is used to indicate cooldown.
 The algorithm keeps three values for each day: the maximum profit by starting without stock, the maximum profit by starting with stock and the maximum profit by starting under cooldown.
@@ -18,7 +18,7 @@ After the bottom-up solving is done, the answer to the problem question is what 
 {% include best-time-to-buy-and-sell-stock-with-cooldown/1.cpp %}
 ```
 
-Now, because evaluating the day $$i$$ only requires information about the day $$i + 1$$, the vector of arrays can become just two arrays, as follows.
+Now, because evaluating day $$i$$ only requires information about day $$i + 1$$, the vector of arrays can become just two arrays, as follows.
 
 ```cpp
 {% include best-time-to-buy-and-sell-stock-with-cooldown/2.cpp %}
