@@ -17,3 +17,9 @@ I use Travis CI to test the site and make sure that all links are valid.
 ## Contributing
 
 Feel free to open pull requests and create issues.
+
+## Running
+
+```
+bundle exec jekyll serve
+```
