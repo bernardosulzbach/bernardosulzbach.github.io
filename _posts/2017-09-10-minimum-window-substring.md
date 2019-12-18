@@ -5,9 +5,9 @@ title: Minimum Window Substring
 
 # Description
 
-This is a post regarding the solution to a substring problem which follows a
-pattern that is quite common among substring problems: it is solvable with a
-pair of fast and slow iterators.
+This is a post regarding the solution to a substring problem which follows a pattern that is quite common among substring problems: it is solvable with a pair of fast and slow iterators.
+
+This problem can often appear as an interview question or as part of a competitive programming problem in sites such as [LeetCode](https://leetcode.com/) and [Codeforces](https://codeforces.com/).
 
 If this is not possible, we will return the empty string.
 
