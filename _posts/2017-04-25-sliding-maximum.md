@@ -53,8 +53,9 @@ class SlidingWindow {
 };
 ```
 
-This solution is amortized O(1) for all operations, making it O(N) for N
-elements. By using STL trees we cannot do better than O(N log N).
+This solution is amortized $$O(1)$$ for all operations, making it $$O(N)$$ for
+$$N$$ elements. By using the standard library trees directly we cannot do
+better than $$O(N \log N)$$.
 
 # Sliding Maximum Example
 
