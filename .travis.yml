@@ -9,4 +9,4 @@ addons:
 script:
   - bundle install
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --check-favicon --check-html --http-status-ignore 999
+  - bundle exec rake

@@ -49,3 +49,6 @@ bower_components
 
 # Python
 __pycache__/
+
+# Rake
+.rakeTasks
