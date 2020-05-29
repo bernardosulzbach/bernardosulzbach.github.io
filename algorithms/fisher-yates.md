@@ -21,9 +21,7 @@ public static void shuffle(List<?> list) {
 }
 ```
 
-With Java you can use
-[Collections.shuffle(List)](http://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#shuffle-java.util.List-)
-which is usually a Fisher–Yates implementation.
+With Java you can use [Collections.shuffle(List)](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#shuffle-java.util.List-) which is usually a Fisher–Yates implementation.
 
 ## Random permutations
 
