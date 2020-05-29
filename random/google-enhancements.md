@@ -12,10 +12,10 @@ This patch removes the annoying animation that Google gives you when you go back
 
 This issue has been described in [this Stack Exchange question](https://webapps.stackexchange.com/questions/115038/how-to-stop-googles-people-also-search-for).
 
-Create the following rule for `google.com` in [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/).
+Create the following rule for `google.com` in [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/) or any other extension that allows for CSS injection.
 
 ```css
-div[data-base-uri^="/search"] {
+div[id^='eob'] {
     display: none !important;
     height: 0px !important;
     width: 0px !important;
@@ -28,6 +28,14 @@ div[data-base-uri^="/search"] {
 
 ## Version history
 
-In 2019-05-28, the original patch was written.
+### 2019-05-28
 
-In 2019-09-30, because of an update to Google Search, an update was required.
+The original rule was written.
+
+### 2019-09-30
+
+Because of an update to Google Search, an update of the rule was required.
+
+### 2020-05-29
+
+Because of an update to Google Search, an update of the rule was required.
