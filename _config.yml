@@ -1,12 +1,12 @@
-# Permalinks
-permalink: /:title/
-
 # Setup
 title: Bernardo Sulzbach's Website
 description: Discourses on computers, software, and mathematics.
 repository: https://github.com/bernardosulzbach/bernardosulzbach.github.io/
 url: https://www.bernardosulzbach.com
 baseurl: ""
+
+# Permalinks
+permalink: /:title/
 
 # Markdown
 kramdown:

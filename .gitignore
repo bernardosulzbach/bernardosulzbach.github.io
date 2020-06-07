@@ -5,6 +5,7 @@ Gemfile.lock
 _gh_pages
 _site
 .ruby-version
+.jekyll-cache
 
 # Numerous always-ignore extensions
 *.diff
