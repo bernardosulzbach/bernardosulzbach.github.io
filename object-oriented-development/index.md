@@ -13,7 +13,7 @@ software change.
 
 ## See also
 
-[Writing good use cases]({{ site.baseurl }}/oo-development/writing-good-use-cases/).
+[Writing good use cases]({{ site.baseurl }}/object-oriented-development/writing-good-use-cases/).
 
 ## Textual analysis of a use case
 Usually the nouns in a use case will become classes, but not every noun will be
@@ -81,8 +81,8 @@ understand.
 
 # Static factory methods Vs. Constructors
 
-[In another page]({{ site.baseurl }}/oo-development/static-factory-vs-constructors/).
+[In another page]({{ site.baseurl }}/object-oriented-development/static-factory-vs-constructors/).
 
 # Code smells
 
-[Primitive obsession]({{ site.baseurl }}/oo-development/primitive-obsession/).
+[Primitive obsession]({{ site.baseurl }}/object-oriented-development/primitive-obsession/).
