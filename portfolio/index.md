@@ -30,6 +30,5 @@ This is a non-exhaustive list of projects I am involved with.
 + **Algorithms** - Readable implementations of popular algorithms
   + See [the GitHub repository](https://github.com/bernardosulzbach/algorithms/)
 
-You may also be interested on my [list of open-source contributions](
-{{ site.baseurl }}/os-contributions/). I believe that giving back is fundamental
-to keep the software development ecosystem healthy.
+You may also be interested on my [list of open-source contributions]({{ site.baseurl }}/open-source/).
+I believe that giving back is fundamental to keep the software development ecosystem healthy.
