@@ -6,6 +6,16 @@ tags: [sidebar]
 
 This is a non-exhaustive list of projects I developed.
 
+## Pocket Statistics
+
+Pocket Statistics is a website that will retrieve and analyze your Pocket data. [You can find it here](https://pocketstatistics.bernardosulzbach.com/).
+
+It is deployed using an NGINX server (as a reverse proxy) and Waitress running on Arch Linux over IPv4 and IPv6.
+
+Certbot (from Let's Encrypt) is used to provide (and regularly renew through a systemd timer) TLS certificates.
+
+nftables is used to build an allowlist-based firewall and to prevent SSH brute-forcing and ICMP flooding.
+
 ## Dungeon
 
 Dungeon is a text-based open-world Java role-playing game.
