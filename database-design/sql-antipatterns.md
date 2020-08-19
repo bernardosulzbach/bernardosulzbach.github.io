@@ -12,20 +12,22 @@ Chapter 16 from the book.
 # Random selection
 
 Frequently, we need a SQL query that returns a random result.
-It is preferable to query the database for this random samples than to fetch all of the data and obtain the random samples in application code.
+It is preferable to query the database for these random samples than to fetch all of the data and obtain the random samples in application code.
 A very naive way of doing this is to sort randomly and pick the first row.
 
 ```sql
 SELECT * FROM integer ORDER BY random() LIMIT 1
 ```
 
-As expected, this cannot benefit from an existing index. If the query planner does not understand the query intention, it might go as far as sorting all the rows of the table only to preserve a single row.
+As expected, this cannot benefit from any index.
+If the query planner does not understand the query intention, it might go as far as sorting all the rows of the table only to preserve a single row.
 
-A possible simple solution when the rows have a contiguous integer primary key is to obtain a pseudo-random value in the range of the primary key and take the row whose primary key is equal to this value.
+A possible simple solution that works when the rows have a contiguous key is to obtain a pseudo-random value in the range of this key and take the row whose key is equal to this value.
 
-If there are missing primary key values, using the next higher value to the selected pseudo-random number is a bad solution, as it is likely to result in a non-uniform random selection.
+If there are missing key values, using the next higher value to the selected pseudo-random number is a bad solution, as it is likely to result in a non-uniform random selection.
 
-Another bad solution is to fetch all primary keys, select one at random in application code, and fetch the corresponding row. This solution is specially bad as the selected row might have been deleted between the two queries.
+Another bad solution is to fetch all primary keys, select one at random in application code, and fetch the corresponding row.
+This solution is specially bad as the selected row might have been deleted between the two queries.
 
 The proper solution is to rely on the nonstandard `LIMIT` clause supported by some database systems or in the `ROW_NUMBER` window function supported in some other database systems.
 
@@ -34,7 +36,7 @@ SELECT * FROM integer ORDER BY id
   LIMIT 1 OFFSET floor(random() * (SELECT count(*) FROM integer))
 ```
 
-It is worth pointing out that some database brands might have some proprietary solutions for this problem.
+It is worth pointing out that some database brands, such as Microsoft SQL Server and Oracle, have proprietary solutions for this use case.
 
 ## Performance benchmarking
 
