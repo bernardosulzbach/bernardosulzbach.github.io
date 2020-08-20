@@ -95,3 +95,17 @@ You can also roll your own solution for this problem. This is usually done in th
 Triggers can be used to guarantee that the keywords table and the inverted index are always up-to-date.
 
 "You don't have to use SQL to solve every problem."
+
+{% comment %}
+Chapter 18 from the book.
+{% endcomment %}
+# Decreasing the number of SQL queries
+
+A common mistake is trying to do too much with a single query.
+It is not uncommon to run into Cartesian products from joins when trying to solve a complex problem in a single step.
+
+Besides the fact that you can get wrong results because getting a complex query right is difficult, it's important to consider that these queries are simply hard to write, hard to modify, and hard to debug.
+
+Writing simpler queries and computing their union and writing queries that build upon CTEs are a better way to perform complex queries.
+
+"Although SQL makes it seem possible to solve a complex problem in a single line of code, don't be tempted to build a house of cards."
