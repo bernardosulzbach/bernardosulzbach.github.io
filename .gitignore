@@ -1,6 +1,10 @@
 # Ignore Gemfile.lock
 Gemfile.lock
 
+# Bundle
+.bundle
+vendor/bundle
+
 # Ignore docs files
 _gh_pages
 _site
