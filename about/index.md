@@ -18,15 +18,16 @@ of your own, just e-mail me your suggestions or open a pull request on GitHub.
 
 You can e-mail me at [bernardo@bernardosulzbach.com](mailto:{{ site.author.email }}?subject=Website Contact).
 
-You can also find me in some social networks.
+I have some public profiles on the Internet:
 
+- [Wikipedia](https://en.wikipedia.org/wiki/User:BernardoSulzbach)
 - [LinkedIn](https://www.linkedin.com/in/bernardosulzbach/)
-- [Last.fm](https://www.last.fm/user/besulzbach)
 - [Twitter](https://twitter.com/besulzbach)
+- [Last.fm](https://www.last.fm/user/besulzbach)
 
 # My public repositories
 
-All my public repositories are available in the following sites.
+All my public repositories are available in one or more of the following sites:
 
 - [GitHub](https://github.com/bernardosulzbach)
 - [GitLab](https://gitlab.com/bernardosulzbach)
