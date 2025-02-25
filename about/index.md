@@ -5,6 +5,17 @@ tags: [sidebar]
 description: Information about me and how to contact me.
 ---
 
+Hi, I'm Bernardo.
+I have several years of experience with a multitude of programming languages, including high-level dynamically-typed scripting languages such as Python, purer functional languages such as Haskell, languages commonly used for enterprise software development, such as C# and Java, and lower-level statically-typed system programming languages, such as C, C++, and Rust.
+
+I strongly believe in using the right tool for the job at hand, and see most hard rules in technology as obstacles to progress.
+Reality is not simple.
+
+Lately, I have been working on the specification and a Rust implementation of my first programming language.
+I have also used C++ to do some real-time soft-body physics.
+
+I'm currently living in Berlin, but I'm willing to relocate for interesting job opportunities.
+
 # This website
 
 This is my personal website. My main goal with it is to create a set of good
