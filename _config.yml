@@ -1,5 +1,5 @@
 # Setup
-title: Bernardo Sulzbach's Website
+title: Bernardo Sulzbach’s Website
 description: Thoughts on computer programming and related topics.
 repository: https://github.com/bernardosulzbach/bernardosulzbach.github.io/
 url: https://www.bernardosulzbach.com
@@ -25,7 +25,7 @@ plugins:
 
 # Pagination
 paginate: 5
-paginate_path: "page/:num"
+paginate_path: "/blog/page/:num"
 
 # About/contact
 author:
