@@ -4,17 +4,42 @@ title: Portfolio
 tags: [sidebar]
 ---
 
-This is a non-exhaustive list of projects I developed.
+This is a non-exhaustive list of projects I have developed on my own.
 
-## Pocket Statistics
+## BigWord
 
-Pocket Statistics is a website that will retrieve and analyze your Pocket data. [You can find it here](https://pocketstatistics.bernardosulzbach.com/).
+An application to efficiently find words in a dictionary that can be formed from a user-provided multiset of letters.
+Think of it as forming words from Scrabble tiles.
 
-It is deployed using an NGINX server (as a reverse proxy) and Waitress running on Arch Linux over IPv4 and IPv6.
+### Examples
 
-Certbot (from Let's Encrypt) is used to provide (and regularly renew through a systemd timer) TLS certificates.
+```bash
+$ ./bigword linkedlists
+> instilled
+> kindliest
+> niellists
+> slinkiest
 
-nftables is used to build an allowlist-based firewall and to prevent SSH brute-forcing and ICMP flooding.
+$ ./bigword abcdefghij
+> bighead
+> jibhead
+
+$ ./bigword aeioubsdlinux
+> unoxidisable
+```
+
+### Design
+
+Data is serialized after processing the dictionary in order to speed up subsequent runs.
+
+The program determines the comparison order of character frequencies by analyzing the dictionary:
+comparing frequencies of characters that are more common in the dictionary first improves comparison performance significantly.
+
+### Performance
+
+On average, the application can query against a dictionary of 500,000 words in around 50 milliseconds.
+
+See [the GitHub repository](https://github.com/bernardosulzbach/bigword).
 
 ## Dungeon
 
@@ -34,6 +59,16 @@ See [the GitHub repository](https://github.com/bernardosulzbach/dungeon/), [the 
 A platformer in C, rewritten in modern C++.
 
 See [the GitHub repository](https://github.com/walls-of-doom/walls-of-doom/), [the website](https://walls-of-doom.github.io/).
+
+## Pocket Statistics
+
+Pocket Statistics is a website that will retrieve and analyze your Pocket data. [You can find it here](https://pocketstatistics.bernardosulzbach.com/).
+
+It is deployed using an NGINX server (as a reverse proxy) and Waitress running on Arch Linux over IPv4 and IPv6.
+
+Certbot (from Let's Encrypt) is used to provide (and regularly renew through a systemd timer) TLS certificates.
+
+nftables is used to build an allowlist-based firewall and to prevent SSH brute-forcing and ICMP flooding.
 
 ## Better Chest Organizer 
 
@@ -81,38 +116,6 @@ This is a C++ implementation of the main ideas from [Wojciech Palubicki, Kipp Ho
 The code is fairly well-documented in order to help an interested reader better understand how the paper was implemented.
 
 See [the GitHub repository](https://github.com/bernardosulzbach/self-organizing-tree-models).
-
-## BigWord
-
-An application to efficiently find words in a dictionary from a multiset of letters.
-This is, the application finds the largest possible words from a bag of available characters.
-
-### Examples
-
-```bash
-$ ./bigword linkedlists
-> instilled
-> kindliest
-> niellists
-> slinkiest
-
-$ ./bigword abcdefghij
-> bighead
-> jibhead
-
-$ ./bigword aeioubsdlinux
-> unoxidisable
-```
-
-### Design
-
-Data is serialized after processing in order to speed up subsequent runs.
-
-### Performance
-
-On average, the application can query against a dictionary of 500,000 words in around 50 milliseconds.
-
-See [the GitHub repository](https://github.com/bernardosulzbach/bigword).
 
 ## Contagium
 
